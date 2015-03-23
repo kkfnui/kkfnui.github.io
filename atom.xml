@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[kkfnui's blog]]></title>
+  <subtitle><![CDATA[learn & share]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://blog.makerome.com/"/>
+  <updated>2015-03-23T15:04:45.000Z</updated>
+  <id>http://blog.makerome.com/</id>
+  
+  <author>
+    <name><![CDATA[lvfei]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[GTD时间管理方法推荐]]></title>
+    <link href="http://blog.makerome.com/2015/03/23/recommend-gtd/"/>
+    <id>http://blog.makerome.com/2015/03/23/recommend-gtd/</id>
+    <published>2015-03-23T12:39:18.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="个人实践">个人实践</h2><p>最近在实践GTD。发现该方法给我的工作生活带来了很多好处，由此向大家介绍下。</p>
+<p><img src="/image/gtd.png" alt="GDT Work flow"></p>
+<p>以上是GTD经典的一个工作流程。</p>
+<p>其中核心的5个步骤：</p>
+<ol>
+<li>收集一切在你头脑闪过的事情</li>
+<li>对事情处理，这事什么事情，要不要处理，下一步是什么</li>
+<li>对事情划分和管理，马上做、以后做、委托其他人做、不可实现</li>
+<li>隔一段时间回顾，看是不是有些事情一直没有处理</li>
+<li>行动，执行</li>
+</ol>
+<p>目前第一第二步，给我带来比较明显的效果。</p>
+<ul>
+<li>第一步：因为尽可能的收集了想法，自己不会经常莫名的焦虑，脑袋也更容易放空。</li>
+<li>第二步：让自己思考问题更有深度，让要做的事情更清晰了</li>
+</ul>
+<p>邓公说实践是检验真理的唯一道路。但是实践的好坏也会影响人对理论的态度。</p>
+<h2 id="读书《Get_Things_Done》摘要">读书《Get Things Done》摘要</h2><h3 id="引子">引子</h3><p>在培训成千上万名专业人士的实践中,我发现,他们的突出问题并不是缺乏时间 (尽管他们自己这样认为)。问题的关键在于,他们无法断定到底要干些什么,下一步需要采取哪些行动。就像第一次在雷达屏幕上观察到敌情时,你应在前期界定问题, 而不是等到问题严重化了才手忙脚乱地判断。这将让你收获行为管理所带来的丰硕成果。</p>
+<p>事情极少由于时间匮乏而受阻。它们陷入困境往往是由于未能判定行动而造成的。</p>
+<h3 id="现实例子">现实例子</h3><p>从你今天早晨醒来到现在,你是否想到任何需要处理但还未动手解决的事情呢?<br>你是不是不止一次地想到了它们呢?为什么?<br>不断地考虑那些毫无进展的事情纯粹是浪费时间和精力。而且这往往只会增加你的焦虑不安。<br>似乎许多人的脑子里总在接连不断地放电影,特别是当我们一谈到有许多事要处理时,这一现象更加严重。<br>人们把许许多多悬而未决的问题委托给大脑来处理,但这个实体目前却无法有效地应付这些情况。</p>
+<p>在通常情况下,你对一些事总是念念不忘,这是因为你希望它们当前的状况能有所改善,另外:</p>
+<ul>
+<li>你还没有确切地认定它们的预期结果是什么;</li>
+<li>你还没有决定你下一步的具体行动到底是什么;</li>
+<li>你还没有把后果和即将采取行动的提示信息存入你所依赖的体系中去。</li>
+</ul>
+<h3 id="着眼于大局的障碍（从上之下）">着眼于大局的障碍（从上之下）</h3><ol>
+<li><p>在处理每天、每小时的事务时,有很多干扰因素分散了我们的注意力,以致我们无法集中足够的精力关注更重要的问题。（环境问题）</p>
+</li>
+<li><p>由于个人管理系统方面存在欠缺,引发了一种下意识的抵触情绪,在面对那些原本棘手的重要项目和目标时,这种情绪阻止了具体行动的实施。结果导致了更加严重的干扰作用,进一步强化了压力。(恶性循环)</p>
+</li>
+<li><p>一旦阐明了更高一级的水准和价值观,我们原有的标准尺度也随之提升,这使我们认识到有更多的事物有待转变。对于那些自己原已应接不暇,又不得不应付的工作我们已经作出了强烈的消极反应。那么,是什么促使我们首先在清单 上堆积了大量的任务呢?是我们的价值观。(大局更让人消极)</p>
+</li>
+</ol>
+<p>大局受价值观的影响。</p>
+<h3 id="从下自上">从下自上</h3><h4 id="面对每一件需要处理的信息时,你必须作出两个方面的决定:">面对每一件需要处理的信息时,你必须作出两个方面的决定:</h4><ul>
+<li>你已经承诺完成哪些工作?需要达到什么样的结果?</li>
+<li>下一步需要采取的行动是什么?</li>
+</ul>
+<h4 id="每项工作都需要有它的DeadLine">每项工作都需要有它的DeadLine</h4><ul>
+<li>由于新情况持续不断地产生,策略重点不断地转移,每天的工作安排也必 将随之作出相应的调整。</li>
+<li>如果每日工作清单上的某一项工作不一定非要在这一天中完成,那么,它 将起到弱化作用,对其他确确实实需要得到落实的工作产生一定的负面冲击。</li>
+</ul>
+<h4 id="行动的三种分类">行动的三种分类</h4><ul>
+<li>在某一个确切的时间里采取的行动;</li>
+<li>在某一个确切的日期里采取的行动</li>
+<li>在某一个确切的日期里将要获取的信息;</li>
+</ul>
+<h4 id="误区">误区</h4><blockquote>
+<p>许多人试图把一切安排得“井井有条”,但是他们却错 误地动手管理那些不完整的“材料”。你不可能整理组织那些即将降临的信息,你只能收集它们,加工它们。此外,你必须以下一步行动的决策为依据,对即将采取的行 动进行组织管理。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="个人实践">个人实践</h2><p>最近在实践GTD。发现该方法给我的工作生活带来了很多好处，由此向大家介绍下。</p>
+<p><img src="/image/gtd.png" alt="GDT Work flow"></p>
+<p>以上是GTD经典的一个工作流]]>
+    </summary>
+    
+      <category term="GTD" scheme="http://blog.makerome.com/tags/GTD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[个人技能整理]]></title>
+    <link href="http://blog.makerome.com/2015/03/22/personal-skill-summary/"/>
+    <id>http://blog.makerome.com/2015/03/22/personal-skill-summary/</id>
+    <published>2015-03-22T12:09:55.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>最近在实践GTD。在实践过程中，发现<strong>整理</strong>充满了魔法力量。它可以让你免除无缘无故的焦虑。</p>
+<p><img src="/image/Technology_and_capacity.png" alt="脑图"></p>
+<p><a href="/file/技术能力.xmind">技术能力.xmind</a></p>
+<p>通过这次整理，我发现了一个严重的问题——交流问题：</p>
+<ol>
+<li>自己交流的圈子太小了，仅限于工作上的同事。</li>
+<li>交流的投入也不多</li>
+</ol>
+<p>这点需要着手来改变。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近在实践GTD。在实践过程中，发现<strong>整理</strong>充满了魔法力量。它可以让你免除无缘无故的焦虑。</p>
+<p><img src="/image/Technology_and_capacity.png" alt="脑图"></p>
+<p><a hre]]>
+    </summary>
+    
+      <category term="技能" scheme="http://blog.makerome.com/tags/%E6%8A%80%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[略读《muduo c++ 网络编程》感想]]></title>
+    <link href="http://blog.makerome.com/2014/12/28/thinks-after-read-moduo-cpp-networt-lib/"/>
+    <id>http://blog.makerome.com/2014/12/28/thinks-after-read-moduo-cpp-networt-lib/</id>
+    <published>2014-12-28T04:53:34.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="内存管理太落后了">内存管理太落后了</h3><p>现在项目用的是C++，用的程度是 C with class。</p>
+<p>内存管理就是纯人工管理了。到处可见的是c运行时函数对内存的操作——申请、初始化、拷贝、释放。所以之前就出过很多问题——内存泄漏、越界、double free。</p>
+<p>按作者说的，我现在是停留在了一种迷信之中——智能指针是恶魔。</p>
+<p>最近也在思考，怎么解决内存管理的问题。</p>
+<h3 id="日志库">日志库</h3><p>现在使用的日志库，打印出来的日志文件格式和 logger4cplus 是一样的。一直看到前面的那些时间戳很不爽。多数情况下用不到，看到作者使用 grep 查看日志，好像是回过神来了。最开始日志库应该是从*uix平台出来的吧。</p>
+<h3 id="下载文件的性能优化">下载文件的性能优化</h3><p>现在底层每次是从操作系统去接收1k数据的，这个值可能是有点小，改大点也许可以优化性能。可以做些试验证明。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="内存管理太落后了">内存管理太落后了</h3><p>现在项目用的是C++，用的程度是 C with class。</p>
+<p>内存管理就是纯人工管理了。到处可见的是c运行时函数对内存的操作——申请、初始化、拷贝、释放。所以之前就出过很多问题——内存泄漏、越界、d]]>
+    </summary>
+    
+      <category term="读书笔记" scheme="http://blog.makerome.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[接口设计中的钓鱼执法]]></title>
+    <link href="http://blog.makerome.com/2014/12/27/finishing-enforcement-in-interface-design/"/>
+    <id>http://blog.makerome.com/2014/12/27/finishing-enforcement-in-interface-design/</id>
+    <published>2014-12-27T11:15:41.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="背景">背景</h3><p>最近我们实现的模块需要向使用者暴露一个C接口。使用文件md5值创建下载任务。</p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">CreateTaskByMD5</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span>* pMD5, unsign <span class="keyword">int</span> nMD5Len)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>开始是春哥提出这个接口的实现有问题——看日志在二进制和十六进制之间转换来转换去。我当时看这个代码是没有看懂，好多<code>if else</code>。</p>
+<h3 id="讨论经过">讨论经过</h3><p>后面交流的时候才明白，接口是想即支持传递二进制的值和十六进制的值。不过当时看代码的实现发现弯绕的人转不过来，于是就要提出接口的设计要简单。</p>
+<p>讨论讨论着，发现如果不需要支持两种输入模式，而且md5值其实是定长的，那么为什么不设计成：</p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">CreateTaskByMD5</span><span class="params">(<span class="keyword">char</span> md5[MD5_LEN])</span></span>;</span><br></pre></td></tr></table></figure>
+<p>当时这样设计的原因：</p>
+<ol>
+<li>支持多种模式参数的输入</li>
+<li>可以检查参数是不是出错了，不如长度和MD5_LEN 不符合就可以返回参数错误</li>
+</ol>
+<p>刚开始听到第二点的时候，觉得是不错。印象中以前也做个这种事情。但是，这次我是挑刺的人，我就要想这样做有什么不好地方。<br>结果我突然想通了，这个就是传说中的钓鱼执法，我允许你犯错，但是你要是犯错我就会抓你。</p>
+<p>想法将参数设计成数组，很直观的就要求使用者要传入指定长度的数据。这样可以有效的预防错误。</p>
+<p>回想以前在实现一个接口的时候，返回参数非法这样的错误码时。心里的那种感觉是——你看我考虑到了这么多的情况，心是甜的。</p>
+<h3 id="问题&amp;可能改善">问题&amp;可能改善</h3><ol>
+<li>就刚才接口设计的问题，其实同事之前就已经讨论设计好了接口。在实现的时候，看到有不当的地方。感觉现在才说出来，同事会很不舒服。</li>
+<li>平日里，解决问题的时候，思维比较讲话，想问题基本是想到一个解决方案就ok了。这样的思维不活跃，以后得逼迫自己想其他方案，及时会更差。open your mind</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="背景">背景</h3><p>最近我们实现的模块需要向使用者暴露一个C接口。使用文件md5值创建下载任务。</p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span ]]>
+    </summary>
+    
+      <category term="接口设计" scheme="http://blog.makerome.com/tags/%E6%8E%A5%E5%8F%A3%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[const 修饰符在c和c++中的区别]]></title>
+    <link href="http://blog.makerome.com/2014/12/23/const-in-c-and-cpp/"/>
+    <id>http://blog.makerome.com/2014/12/23/const-in-c-and-cpp/</id>
+    <published>2014-12-23T15:01:12.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>去年做一个项目，使用了常量来定义错误码，以前都是使用宏。</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> DWORD dwXXXError = <span class="number">1111</span>;</span><br></pre></td></tr></table></figure>
+<p>最近这个项目里发现，有些常量定义的时候没有<code>static</code>修饰符。<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">uint32_t</span> kTimeoutInterval = <span class="number">20</span> * <span class="number">1000</span>;</span><br></pre></td></tr></table></figure></p>
+<p>在c语言中<code>static</code>修饰符可以保证变量只能在本编译单元内才可以访问。</p>
+<p><strong>那么没有<code>static</code>修饰之后, 在多个编译单元定义相同名称的const常量会不会出现命名冲突呢?</strong></p>
+<p>试验结果：</p>
+<ul>
+<li>c语言中，连接会出现重定义的链接问题</li>
+<li>cpp中，编译链接正常</li>
+</ul>
+<h3 id="为什么？">为什么？</h3><p>在Cxx03里面有规定，const 默认是在编译单元内连接的，而在c语言里面默认是全局连接的。</p>
+<p>所以，以前那样定义代码是c语言的风格。</p>
+<blockquote>
+<p>我感觉现在慢慢开始习惯问为什么了。应该和问别人为什么多了有关系！</p>
+<p>以前都是不敢问为什么，因为问为什么就代表自己不懂。现在敢问为什么？因为不会因为不懂得哪个知识点害羞，我的最终目的是要保证功能被正确的实现了。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>去年做一个项目，使用了常量来定义错误码，以前都是使用宏。</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br]]>
+    </summary>
+    
+      <category term="语言" scheme="http://blog.makerome.com/tags/%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2014-11-22-reading]]></title>
+    <link href="http://blog.makerome.com/2014/11/22/2014-11-22-reading/"/>
+    <id>http://blog.makerome.com/2014/11/22/2014-11-22-reading/</id>
+    <published>2014-11-22T01:51:22.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="阅读">阅读</h3><ul>
+<li><p><a href="http://www.jianshu.com/p/Daxrnq" target="_blank" rel="external">求知瘾者</a></p>
+<p>我是被这个标题吸引的。作者的观点是：</p>
+<blockquote>
+<ol>
+<li>现在求知被大家认同，大家对知识的追求超过了一个度。出现了新的问题——求知瘾者</li>
+<li>知识本是用来解决问题的，但是求知瘾者“忙于”求知，无暇或者逃避解决问题</li>
+<li>作者关于求知瘾者特点的描述感觉太突兀了（能思考、欠全面；假大空、不实际；有知识、不能做出成绩）</li>
+<li>关于为什么会出现求知瘾者第一段落提到了：求知理念的深入人心及优越感作祟。</li>
+</ol>
+</blockquote>
+<p> <strong>环境</strong>：知识所能带来的优越感已经深入人心，信息“进口”的渠道多样化更是激发了人们新知识的好奇心。在解惑新知识的同时也拓宽了信息进口的渠道。<br> <strong>个人</strong>：选择太多，目标不清晰。无法评估和量化新的知识，在实现目标上的价值。对于新知识的态度是有备无患，是自己的注意力分散。</p>
+</li>
+<li><p><a href="http://jecvay.com/2014/11/compiler-makes-fast-build/" target="_blank" rel="external">Minecraft应该怎么玩? 编译原理解放生产力!</a></p>
+<p>看标题以为是用某种编程语言玩Minecraft。细看应该是玩Minecraft之后的感想：</p>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li>开始由编程语言引入，不同语言有各自擅长的领域。</li>
+<li>描述Minecraft构建世界的基本元素，同时描述独自构建不同规模建筑的感觉。同时带入使用汇编编写相应规模的程序的情景。最后引入了软件工程, 模块化开发</li>
+<li>作者认为这还不行，抛出一种观点：使用新语言一个人可以完成搜索引擎、操作系统、物流系统。<ol>
+<li>我的理解现在的语言已经可以达到一个人完成其中的任何一个系统了——模块化开发</li>
+<li>为啥需要那么多人去做商业化的产品——因为什么东西都没有一个完全统一的标准。</li>
+<li>编译是将代码转换成机器能够理解的指令，说是编译技术倒是像人工智能。</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<ul>
+<li><p><a href="http://www.scalerstalk.com/323-load/" target="_blank" rel="external">明确主线，合理取舍，简单入手，逐步挂载——计划完成不了怎么办系列(3)</a></p>
+<p>还是和想做太多，但结果“一事无成”相关的文章：</p>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li>我们有很多欲望需求，但是很多时候需求是装逼的需求，自己不知道自己正真的需求</li>
+<li>为什么？1. 教育体系的批量生产不注重个性发展；2. 自己依赖于外界的标尺，寻求认同</li>
+<li>但是我们做计划的时候就不是这样了。由于主线的不明确，我们会什么都要想，反正提要求是没有成本的，不管给自己提，或者给别人提。</li>
+<li>还是那句话，想一想明确自己的目标，考量计划是否朝着目标走去</li>
+</ol>
+</blockquote>
+<p> 关于执行</p>
+<blockquote>
+<ol>
+<li>简单入手，做好一件事情之后再增加到计划两件事情。这点可以尝试下，平时确实会碰到这样的问题。颓废了一整子或者工作稍微不那么忙，就想看书做点什么事情，结果什么都来，确实做不好。</li>
+<li>到最后你会发现你的瓶颈不是你的心烦意乱，而是你的身体健康度。只要你有体力，就能开始工作，开始执行计划，而且投入以后就不会轻易掉线。这才是一种理想状态，这也是我在努力追求的。</li>
+<li>执行中干扰一定要抵制。</li>
+</ol>
+</blockquote>
+<p> 关于执行没啥好说的，重在实践。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="阅读">阅读</h3><ul>
+<li><p><a href="http://www.jianshu.com/p/Daxrnq" target="_blank" rel="external">求知瘾者</a></p>
+<p>我是被这个标题吸引的。作者的观点是：</]]>
+    </summary>
+    
+      <category term="思考" scheme="http://blog.makerome.com/tags/%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[第一次招聘总结]]></title>
+    <link href="http://blog.makerome.com/2014/11/18/hiring-record-for-the-first-time/"/>
+    <id>http://blog.makerome.com/2014/11/18/hiring-record-for-the-first-time/</id>
+    <published>2014-11-17T16:04:51.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="背景">背景</h2><p>我现在服务的项目在将来会要支持多个产品。预估人手是不足的，所以现在需要招聘新同事。</p>
+<p>招聘要求写的是：</p>
+<ol>
+<li>本科以上学历，3年以上工作经验；</li>
+<li>精通C、C++编程，熟练掌握设计模式、熟练使用uml；</li>
+<li>有较大型C、C++项目经验；</li>
+<li>精通linux tcp/ip网络编程，对epoll及多线程编程有较深入的理解；</li>
+<li>熟悉敏捷开发流程，有跨平台项目经验者优先；</li>
+<li>熟悉EMULE、BT等p2p技术者优先；</li>
+<li>逻辑能力强，有较强的分析定位问题的能力；</li>
+</ol>
+<p>招聘的时候才发现，原来简历是可以乱投的。筛选简历的时候，就看到隔行的、很明显不符合要求的人投了简历。</p>
+<h2 id="面试总结">面试总结</h2><p>今天约了一个哥们来笔试、面试。蛮对不住这个哥们的，面试花了一个半小时，结果还是把他刷了。</p>
+<p>不足的地方：</p>
+<ol>
+<li>准备不足，问的问题没有规划没有针对性</li>
+<li>笔试题目没有一个标准答案，导致面试的时候根本没有怎么参考笔试结果</li>
+<li>总是希望他能够说出个让我觉得眼前一亮的东西，所以问了很多东西时间脱得太久了</li>
+<li>开始的时候招待的流程没有做好，好歹一开始就准备好饮料什么的</li>
+</ol>
+<h2 id="改善">改善</h2><ol>
+<li>笔试题目增加标准答案</li>
+<li>面试的第一个环节就是对笔试题目进行讨论，后续还可以改进优化题目</li>
+<li>第二个环节，就是自我介绍、擅长的技术介绍</li>
+<li>第三个环节，一到两个技术点开放性问答</li>
+<li>上机写程序</li>
+</ol>
+<p>我是属于一面，明确自己的职责范围，主要是技术上面的把关吧。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="背景">背景</h2><p>我现在服务的项目在将来会要支持多个产品。预估人手是不足的，所以现在需要招聘新同事。</p>
+<p>招聘要求写的是：</p>
+<ol>
+<li>本科以上学历，3年以上工作经验；</li>
+<li>精通C、C++编程，熟练掌握设计模式、熟练]]>
+    </summary>
+    
+      <category term="工作" scheme="http://blog.makerome.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+      <category term="招聘" scheme="http://blog.makerome.com/tags/%E6%8B%9B%E8%81%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[review 优化100%卡住需求]]></title>
+    <link href="http://blog.makerome.com/2014/11/04/code-review-on-work/"/>
+    <id>http://blog.makerome.com/2014/11/04/code-review-on-work/</id>
+    <published>2014-11-03T16:35:22.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>今天在发布的需要带上某个需求。由于测试那边没有测试完全，再加上上层应用还未及时更新，为了保险这里需要review代码。</p>
+<p>这里已经有几个问题了:</p>
+<ul>
+<li>需求有点紧</li>
+<li>按照我之前说的流程，代码review是同提测一起的(<em>可能之前review过但没有看出问题</em>)</li>
+<li>看板上更新不规范，之前一直有关心这个需求，但是没有看出可以是否可以review，在哪个分支review(<em>没有直接贴出svn地址，出差远程操作电脑很费劲</em>)</li>
+<li>春风之前有提示我review代码，当时我也没有关注是哪个分支，review了主干上的代码修改——交流时没有明确哪个需求</li>
+</ul>
+<h3 id="review发现的问题">review发现的问题</h3><p>对原来的一个逻辑理解有问题。原来在创建任务的时候，有按照本地存储路径对任务进行去重。改动之后不能第一时间获取到存储路径，就使用url对任务进行去重。</p>
+<p>不理解逻辑出现这样的问题属于正常的情况。问题出在，提测时没有意识到这是一个改动，导致没有测试相关逻辑。</p>
+<h3 id="review的问题">review的问题</h3><p>对我自己来说review存在几个问题：</p>
+<ol>
+<li>review一发现问题就容易马上兴奋起来，不太能集中注意力</li>
+<li>也是由于这个问题，在我提出第一个问题后，继续review出问题后会打断开发者正在进行的fix工作</li>
+<li>review工作和测试一样，有时就会像打乒乓球，时间被切割开来</li>
+</ol>
+<h3 id="review的时机">review的时机</h3><ul>
+<li>对于整体方案负责人要从一开始就跟进，开发人员制定方案，方案需要review（<em>也称作过方案</em>）</li>
+<li>在需求提测的时候需要同步review代码</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天在发布的需要带上某个需求。由于测试那边没有测试完全，再加上上层应用还未及时更新，为了保险这里需要review代码。</p>
+<p>这里已经有几个问题了:</p>
+<ul>
+<li>需求有点紧</li>
+<li>按照我之前说的流程，代码review是同提测一起的(<em>]]>
+    </summary>
+    
+      <category term="review" scheme="http://blog.makerome.com/tags/review/"/>
+    
+      <category term="工作" scheme="http://blog.makerome.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+      <category term="总结" scheme="http://blog.makerome.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在Mac OSX 上抓android手机数据包]]></title>
+    <link href="http://blog.makerome.com/2014/11/02/use-wireshark-capture-net-data-that-cost-by-android-on-mac-osx/"/>
+    <id>http://blog.makerome.com/2014/11/02/use-wireshark-capture-net-data-that-cost-by-android-on-mac-osx/</id>
+    <published>2014-11-02T15:03:50.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>在android直接使用tcpdump抓包对于开发调试的时候有些不方便。每次抓android的包的时候都会怀念以前做windows开发的简单快捷的抓包方法。碰巧最近发现android的抓包也可以如此的顺畅。</p>
+<p>先介绍下mac os下抓android手机数据包的流程吧：</p>
+<ol>
+<li>确保手机上已经安装了tcpdump，支持busybox</li>
+<li>确保mac上安装了<a href="https://www.wireshark.org/download.html" target="_blank" rel="external">wireshark</a></li>
+<li>运行<code>./adb_wireshark.sh</code>即可完成整个功能了</li>
+</ol>
+<p>在mac上抓android数据包的基本原理是转发，即数据包还是在android上抓取，只是在mac上展示而已。转发的关键是<code>adb forward</code>。</p>
+<p>adb_tcpdump.sh</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/data/<span class="built_in">local</span>/tcpdump <span class="operator">-s</span> <span class="number">0</span> -w - | busybox nc <span class="operator">-l</span> -p <span class="number">11233</span></span><br></pre></td></tr></table></figure>
+<p>该命令会将抓取到的数据发送到 11233 端口。</p>
+<p>adb_wireshark.sh<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">adb root	<span class="comment">#获取root权限</span></span><br><span class="line">adb shell &lt; adb_tcpdump.sh &amp; <span class="comment">#在手机上执行</span></span><br><span class="line">Apid=<span class="variable">$!</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">sleep</span> <span class="number">1</span></span><br><span class="line">adb forward tcp:<span class="number">11233</span> tcp:<span class="number">11233</span>	<span class="comment">#将手机11233端口的数据转发到mac的11233端口上</span></span><br><span class="line"><span class="keyword">sleep</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line">mkfifo /tmp/sharkfin	<span class="comment">#创建一个命名管道</span></span><br><span class="line">wireshark -k -i /tmp/sharkfin &amp; <span class="comment">#运行本地的wireshark，并指定数据来源是在/tmp/sharkfin上</span></span><br><span class="line"></span><br><span class="line">nc <span class="number">127.0</span>.<span class="number">0</span>.<span class="number">1</span> <span class="number">11233</span> &gt; <span class="regexp">/tmp/sharkfin</span> <span class="comment">#将本地11233端口的数据重定向到命名管道上</span></span><br><span class="line"><span class="keyword">kill</span> -<span class="number">9</span> <span class="variable">$Apid</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在android直接使用tcpdump抓包对于开发调试的时候有些不方便。每次抓android的包的时候都会怀念以前做windows开发的简单快捷的抓包方法。碰巧最近发现android的抓包也可以如此的顺畅。</p>
+<p>先介绍下mac os下抓android手机数据包的流]]>
+    </summary>
+    
+      <category term="工具" scheme="http://blog.makerome.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="网络" scheme="http://blog.makerome.com/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[定位小米公司网络中下载引擎速度慢问题]]></title>
+    <link href="http://blog.makerome.com/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/"/>
+    <id>http://blog.makerome.com/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/</id>
+    <published>2014-10-26T03:21:42.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>最近到小米公司出差，目的是保证迅雷加速引擎嵌入Miui v6的稳定版中。</p>
+<p>加速引擎的亮点是高速下载，结果在小米的网络中下载速度反而没有最简单的单连接下载快。具体现象：</p>
+<ul>
+<li>加速引擎：任务开始一段时间后速度可以达到2M/s，过了一段时间速度突然下降。在白天速度可以将到100～200KB/s，晚上没什么人使用的时候高些——1MB/s</li>
+<li>浏览器： 速度很稳定一直保持在2.5M/s，白天晚上都一样</li>
+</ul>
+<p>分析现象猜测有几个原因：</p>
+<ul>
+<li>原始资源非常强，使用多连接反而会降低下载速度</li>
+<li>wifi热点的性能有问题，连接多的时候为各个连接提供的速度总和反而没有单连接给力</li>
+</ul>
+<p>第一点会影响下载速度，但是对下载速度的影响不会那么大。</p>
+<p>在验证第二个点的时候，使用了IDM，这个工具对定位问题的帮助很大。IDM 也是一个下载软件，支持多连接下载，还可以方便的设置下载任务使用的连接数。在夜晚做了几组试验对比：</p>
+<ul>
+<li>连接数为 1， 下载速度平稳一直是 2.3～2.5M/s</li>
+<li>连接数为 2， 开始下载速度是在2M/s以上，但是很快就往下降最终稳定在1M/s左右</li>
+<li>连接数为 4， 现象和连接数为 2 的一样</li>
+<li>连接数为 8,  现象和连接数为 2 的一样</li>
+</ul>
+<p>因为下载引擎最多也就使用10条连接左右，所以没有测试更多的连接数。</p>
+<p>现象不能证明猜测的原因2。仔细观察发现idm在使用多连接下载的时候会在第一条连接获取到文件大小后断开，后面的请求都是分块请求。</p>
+<p>猜测是网络对于带有 range 的http请求做了限制。后面做了一些测试验证了该观点：</p>
+<ul>
+<li>单连接下载情况，一个带range，一个不带range请求，结果带range下了速度是1M/s，不带range的是2.5M/s</li>
+<li>多连接情况，包涵一个不带range请求和三个带range请求的连接，下载速度也能一直保持2.5M/s</li>
+</ul>
+<blockquote>
+<p>总结：在开始猜测原因二的时候，还是有先入为主的毛病。当有人提出异议的时候，只是记住维护自己的观点，好像根本考虑别人的观点。<br>思维方式还是太局限了。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近到小米公司出差，目的是保证迅雷加速引擎嵌入Miui v6的稳定版中。</p>
+<p>加速引擎的亮点是高速下载，结果在小米的网络中下载速度反而没有最简单的单连接下载快。具体现象：</p>
+<ul>
+<li>加速引擎：任务开始一段时间后速度可以达到2M/s，过了一段时间速度]]>
+    </summary>
+    
+      <category term="下载" scheme="http://blog.makerome.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+      <category term="测试" scheme="http://blog.makerome.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[pthread_cond_signal和SetEvent的差异]]></title>
+    <link href="http://blog.makerome.com/2014/06/09/syn-lock-on-different-platform/"/>
+    <id>http://blog.makerome.com/2014/06/09/syn-lock-on-different-platform/</id>
+    <published>2014-06-09T13:22:15.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>接着上个礼拜的开发。同事调用我的库之后，发现会出现调用接口卡住的问题。</p>
+<p>其根本原因是对pthread_cond_signal的使用存在误解。以为和windows下的SetEvent一样使用。错误的代码：</p>
+<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//接口线程</span></span><br><span class="line"><span class="literal">void</span> SendCommand(Command <span class="subst">*</span>pCommand)</span><br><span class="line">&#123;</span><br><span class="line">    &#123;</span><br><span class="line">        Lock(commandList);</span><br><span class="line">        commandList<span class="built_in">.</span>push_back(pCommand);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#123;</span><br><span class="line">        Lock(pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">        pthread_cond_signal(pCommand<span class="subst">-&gt;</span>cond, pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 主线程</span></span><br><span class="line"><span class="literal">void</span> HandleCommand(Command <span class="subst">*</span>pCommand)</span><br><span class="line">&#123;</span><br><span class="line">    pCommand<span class="subst">-&gt;</span>Execute();</span><br><span class="line">    &#123;</span><br><span class="line">        Lock(pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">        pthread_cond_signal(pCommand<span class="subst">-&gt;</span>cond);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>因为命令列表的锁和命令的锁是独立的。这样会出现主线程先获取到命令并执行<code>pthread_cond_signal</code>之后，才执行接口线程的代码。最终，<code>pCommand-&gt;cond</code>就不能激活了。</p>
+<p><code>pthread_cond_signal</code>和windows下的<code>SetEvent</code>有差异，在实现的时候就凭这对<code>SetEvent</code>的理解使用了<code>pthread_cond_signal</code>。<br>具体差异分析，参考<a href="http://blog.csdn.net/absurd/article/details/1402433" target="_blank" rel="external">小心pthread_cond_signal和SetEvent之间的差异</a></p>
+<blockquote>
+<p>从博主的文章那里看到了两个资料：</p>
+<ol>
+<li><a href="http://reactos.com/zh-hans" target="_blank" rel="external">reactos</a>。到目前为止官网没有提供最新版本对应的源代码（<em>找了好久才反应过来</em>）</li>
+<li>glibc的源代码</li>
+</ol>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>接着上个礼拜的开发。同事调用我的库之后，发现会出现调用接口卡住的问题。</p>
+<p>其根本原因是对pthread_cond_signal的使用存在误解。以为和windows下的SetEvent一样使用。错误的代码：</p>
+<figure class="highlight]]>
+    </summary>
+    
+      <category term="多线程" scheme="http://blog.makerome.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[SDK接口胡言乱语]]></title>
+    <link href="http://blog.makerome.com/2014/06/02/about-sdk-interface/"/>
+    <id>http://blog.makerome.com/2014/06/02/about-sdk-interface/</id>
+    <published>2014-06-02T15:36:38.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="背景">背景</h2><p>现在在做新版的下载库sdk，最初的p2s功能基本完工，sdk的整个框架都已经确定了。最近要做sdk一个核心的需求——会员增值服务。为了满足这个需求，sdk需要提供新的接口。</p>
+<p>看了下目前sdk对外暴露接口的方式，实现简介高效。但是也有个问题，扩展性不高。所以需要修改暴露接口的方式。</p>
+<h2 id="接口要求">接口要求</h2><p>sdk的接口对外暴露下载资源的功能。调用者可以调用接口创建下载任务，获取任务状态信息，停止任务等。</p>
+<p>在我看来，sdk对外暴露接口有下面几个要求：</p>
+<ol>
+<li>接口调用的安全性，对于非法调用不能出现未定义错误<ol>
+<li>参数的合法性检测</li>
+<li>接口是有状态的，调用顺序的合法性检测</li>
+</ol>
+</li>
+<li>除初始化反初始化接口，其他接口需要保证线程安全</li>
+</ol>
+<h3 id="接口申明">接口申明</h3><p>一如既往，sdk的接口大致如下：<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">init</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">uninit</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">create_start_task</span><span class="params">(param p, <span class="keyword">int</span>* p_task_id)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query_task</span><span class="params">(<span class="keyword">int</span> task_id, task_info * p_task_info)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">stop_release_task</span><span class="params">(<span class="keyword">int</span> task_id)</span></span>;</span><br></pre></td></tr></table></figure></p>
+<h3 id="sdk工作线程">sdk工作线程</h3><p>sdk的工作(主)线程是sdk初始化时创建的。也思考过，为什么不在调用者的线程上工作呢？可能问题比较傻，但还是对比下好处吧：</p>
+<ol>
+<li>实现逻辑独立，可控性强</li>
+<li>接口设计简单，不依赖与调用者的实现通用性强</li>
+<li>反之，如果调用者是多线程调用，则会傻眼</li>
+</ol>
+<h2 id="解决方法">解决方法</h2><h3 id="参数合法性检测">参数合法性检测</h3><p>以上接口的设计已经体现了参数的合法性检测了。创建任务的接口简单的实现方式：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> create_task(param p, <span class="keyword">task</span> **pTask)</span><br><span class="line">&#123;</span><br><span class="line">    *pTask = <span class="keyword">new</span> <span class="keyword">Task</span>(p);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>对外直接暴露任务指针也就意味着，后面的接口会使用外部传入的指针。如果传入的指针是非法的，最终sdk会访问到非法地址。</p>
+<p>而目前的接口设计，对外暴露的仅有任务句柄。内部保存了<code>task_id</code>和<code>task对象</code>的映射关系，如果传入的task_id未出现在映射关系表中，即认为调用非法。</p>
+<p>映射关系需要维护的——创建任务时增加映射关系，释放任务时移除映射关系。之后多线程调用接口就必须给操作映射关系的相关代码加锁了。</p>
+<h3 id="调用顺序的合法性">调用顺序的合法性</h3><p>接口的调用最终都需要到主线程中执行，即需要线程间通信。线程间通信的实质是数据共享。<br>一般线程间通信都是采用消息队列的方式实现的。原有的实现并没有采用这种做法。使用了最淳朴，最实在的数据共享。</p>
+<p>每种任务状态有一个队列。如：</p>
+<ul>
+<li>需要开始的任务——<code>waiting_start_list</code></li>
+<li>正在运行的任务——<code>running_list</code></li>
+<li>需要释放的任务——<code>waiting_stop_list</code></li>
+</ul>
+<p>接口线程调用<code>start_task</code>时,在接口线程将任务存于<code>waiting_start_list</code>之中。待主线程的循环执行到响应接口线程的时候，便开始任务，并将任务移到running_list之中。其他操作同理。</p>
+<p>这样的设计，可以很好的满足<strong>创建开始</strong>、<strong>查询</strong>、<strong>停止释放</strong>的接口需求。但是在需要增加新接口就不方便了。比如现在要增加一个修改任务属性的接口，就不知道怎么添加了。如果是增加一个类似的队列，那么不同操作之前的顺序怎么保证？</p>
+<blockquote>
+<p><strong>备注：</strong>使用多个队列来保存任务操作可以解决一个问题，合并任务操作。在测试程序的时候，经常会频繁的点击开始和暂停按钮。假如创建一个任务之后，用户在主线程循环这个时间内调用了4次开始、停止任务。主线程一次性获取到这些操作后，可以现在不同的队列对任务进行切换，最终的操作依赖与队列中的内容。</p>
+</blockquote>
+<p>为了程序的扩展性，这里最终使用消息队列的方式实现。<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> Command</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">Excute</span><span class="params">()</span> </span>= <span class="number">0</span>;    <span class="comment">//主线程中执行</span></span><br><span class="line">  <span class="keyword">private</span>:</span><br><span class="line">  <span class="keyword">bool</span> m_bIsSynaCommand;</span><br><span class="line">  Event m_event;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> CommandList</span><br><span class="line">&#123;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">public</span>:</span><br><span class="line">  </span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">SendCommand</span><span class="params">(Command * pCommand)</span></span>;</span><br><span class="line">  <span class="function"><span class="keyword">bool</span> <span class="title">PostCommand</span><span class="params">(Command * pCommand)</span></span>;</span><br><span class="line">  <span class="keyword">private</span>:</span><br><span class="line">  std::<span class="stl_container"><span class="built_in">list</span>&lt; Command* &gt;</span> m_listCommands;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>这样所有的操作都放在了同一个队列之中，先后顺序可以在队列中体现出来。另外，扩展性也较好，增加新的接口仅需继承<code>Command</code>即可。</p>
+<h3 id="锁">锁</h3><p>前面提到多线程通信的本质是数据共享。数据共享必然要解决读写冲突的问题，这里使用锁来保证读和写操作的唯一。</p>
+<p>接口总的说来有3类锁：</p>
+<ol>
+<li>任务id和任务对象映射的锁，接口线程存在多线程</li>
+<li>命令队列的锁。多个接口线程，接口线程和主线程的读写</li>
+<li>任务的状态的锁。</li>
+</ol>
+<p>目前<code>query_task</code>的接口实现较为特殊,操作没有添加到命令 队列中。这样做出于两点考虑：</p>
+<ol>
+<li>query_task调用较频繁</li>
+<li>query_task是唯一一个获取任务数据的接口，即有返回值</li>
+</ol>
+<p>所以，每个任务的任务信息都需要单独的一个锁。</p>
+<h2 id="其他">其他</h2><h3 id="状态与异步/同步操作">状态与异步/同步操作</h3><p>对一个有状态的对象操作。</p>
+<p><strong>异步操作</strong></p>
+<ol>
+<li>执行结果唯一，调用后立即修改状态</li>
+<li>执行结果不唯一<ol>
+<li>改成pending状态，其他对对象的操作无效</li>
+<li>改成同步操作，在该调用返回前其他操作不可调用。</li>
+</ol>
+</li>
+</ol>
+<h3 id="状态的保存">状态的保存</h3><ol>
+<li>对象内部</li>
+<li>列表扩展</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="背景">背景</h2><p>现在在做新版的下载库sdk，最初的p2s功能基本完工，sdk的整个框架都已经确定了。最近要做sdk一个核心的需求——会员增值服务。为了满足这个需求，sdk需要提供新的接口。</p>
+<p>看了下目前sdk对外暴露接口的方式，实现简介高效]]>
+    </summary>
+    
+      <category term="乱语" scheme="http://blog.makerome.com/tags/%E4%B9%B1%E8%AF%AD/"/>
+    
+      <category term="接口" scheme="http://blog.makerome.com/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[HttpDataPipe中的内存管理]]></title>
+    <link href="http://blog.makerome.com/2014/05/18/memory-manager-in-http-data-pipe/"/>
+    <id>http://blog.makerome.com/2014/05/18/memory-manager-in-http-data-pipe/</id>
+    <published>2014-05-17T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>在实现HttpDataPipe的过程中，在内存管理候花了比较大的精力。由于没有把问题分析清楚，内存管理的逻辑修改过好几次。想找个人分享，但是自己想清楚了总觉得没啥内容。这个算是自己的一个总结把。</p>
+<h3 id="问题描述">问题描述</h3><p>在我现在做的模块中对于内存管理这里有几个问题需要解决：</p>
+<ol>
+<li>存在同步释放和异步释放的可能。底层的网络库是异步调用的，内存释放必须等网络返回通知;</li>
+<li>内存申请有多种方式。接收数据的内存必须从内存池中分配，有一定的限制；协议数据可以无限制的申请；</li>
+<li>收到的纯数据是不能在Pipe中模块释放的。同上为了减少内存拷贝</li>
+</ol>
+<h3 id="网络层接口">网络层接口</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">recv</span><span class="params">(socket s, <span class="keyword">char</span> *pBuffer, <span class="keyword">int</span> len, callback func, <span class="keyword">void</span>* userdata, <span class="keyword">int</span>* opid)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">typedef</span> <span class="title">void</span> <span class="params">(__stdcall * callback)</span><span class="params">(<span class="keyword">int</span> err, <span class="keyword">void</span>* userdata, <span class="keyword">void</span>* pResult)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>一个典型的异步接口。调用的时候需要申请内存，传递给网络层用来存储从网络接受到的数据。</p>
+<ul>
+<li>s， 套接字句柄</li>
+<li>pBuffer, 传递给网络层的缓冲区</li>
+<li>len， 缓冲区长度</li>
+<li>callback，回掉函数</li>
+<li>userdata，回掉函数回掉时带的参数</li>
+<li>opid，本次操作的标志，可以通过该id取消异步操作</li>
+</ul>
+<h3 id="内存管理编码的过程">内存管理编码的过程</h3><p>总体来说，内存管理的逻辑有三个版本：</p>
+<ol>
+<li>在Pipe中管理内存，使用<code>BufferAllocRecord</code>记录相应的情况</li>
+<li>使用operation来抽象网络操作，内存在operation中管理</li>
+<li>改变pipe和operation的对应关系，由1:1 —&gt; 1:n (n&gt;=0)</li>
+</ol>
+<h4 id="在pipe中申请内存(异步调用释放资源的基本思路)">在pipe中申请内存(异步调用释放资源的基本思路)</h4><p>一般异步释放资源的思路，先记录资源，等异步返回的时候从记录中获取资源信息并释放。<br><figure class="highlight thrift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">BufferAllocRecord</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">void</span>* pBuffer;</span><br><span class="line">    BufferAllocType type;   <span class="comment">// new; memory_pool_unlimit; memory_pool_limit</span></span><br><span class="line">    <span class="keyword">void</span>* pOwner;</span><br><span class="line">    SOCKET s;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>BufferAllocType就是为了解决最开始提到的问题2而增加的。接收数据的代码如下：<br><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="type">int</span> len = <span class="number">5620</span>;</span><br><span class="line"><span class="type">char</span> *pBuffer = new <span class="type">char</span>[len];</span><br><span class="line"><span class="type">BufferAllocRecord</span> *pRecord = new <span class="type">BufferAllocRecord</span>(pBuffer, new, this, s);</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="literal">result</span> = recv(s, pBuffer, len, callback, (<span class="type">void</span>*)pRecord, &amp;m_nOpId);</span><br><span class="line"><span class="keyword">if</span> (<span class="type">SUCCESS</span> == <span class="literal">result</span>)</span><br><span class="line">&#123;</span><br><span class="line">    //</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">&#123;</span><br><span class="line">    //<span class="keyword">do</span> release buffer <span class="keyword">and</span> record</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>等到异步操作<code>callback</code>回调的时候，就可以根据userdata中的信息，释放里面的buffer。<br>这儿主要的问题是，逻辑写到哪里需要内存就在哪里申请内存了。</p>
+<h4 id="封装operation管理内存">封装operation管理内存</h4><p>在HttpDataPipe整个流程写完了之后，我发现了几个问题：</p>
+<ol>
+<li>每次网络操作都需要申请内存，生成BufferAllocRecord</li>
+<li>调用申请内存的接口不一样</li>
+<li>整个HttpDataPipe流程下来，网络操作不存在并发的问题，即如果有网络操作要么是在读要么就是在写</li>
+</ol>
+<p>发现这些问题后，且受PC下载库的影响，就将Record扩展成了一个Operation。Operation除了记录Record的信息外，还提供了管理内存的功能。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">AsynIoOperation</span></span><br><span class="line"></span>&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">AllocBuffer</span><span class="params">(<span class="keyword">int</span> size, AllocType type)</span></span><br><span class="line">    </span>&#123;</span><br><span class="line">        <span class="keyword">assert</span>(NULL == m_pBuffer);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">new</span> == type)</span><br><span class="line">        &#123;</span><br><span class="line">            m_pBuffer = ……;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="function"><span class="keyword">else</span> <span class="title">if</span> <span class="params">(……)</span></span><br><span class="line">        </span>&#123;</span><br><span class="line">            m_pBuffer = ……;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">ReleaseBuffer</span><span class="params">()</span></span><br><span class="line">    </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (……)</span><br><span class="line">        &#123;</span><br><span class="line">            ……</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="function"><span class="keyword">else</span> <span class="title">if</span><span class="params">(……)</span></span><br><span class="line">        </span>&#123;</span><br><span class="line">            ……</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="keyword">char</span> * m_pBuffer;</span><br><span class="line">	AsynIoHandler * m_pHandler;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>另外对HttpDataPipe也做了调整，必须继承接口AsynIoHandler:<br><figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title">AsynIoHandler</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Handle</span><span class="params">(<span class="keyword">int</span> errnocode, <span class="keyword">void</span>* data, <span class="keyword">const</span> <span class="keyword">void</span>* response)</span></span>;</span><br><span class="line">    </span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">HandleIoComplete</span><span class="params">(AsynIoOperation* pOperation)</span></span>;</span><br><span class="line">    </span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">HandleCancled</span><span class="params">(AsynIoOperation* pOperation)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>“这样代码就存在复用的价值了，以后在实现FtpDataPipe的时候就可以直接使用这套逻辑了”，当时做的时候得意的想到。</p>
+<p>整体的接口就是：</p>
+<ul>
+<li>HttpDataPipe继承AsynIoHandler，依赖AsynIoOperation</li>
+<li>AsynIoOperation依赖AsynIoHandler</li>
+</ul>
+<p>由于发现HttpDataPipe的工作模式是半双工的，所以认为可以提高性能——减少Operation对象生成和销毁的次数。于是就在HttpDataPipe中增加一个Operation的成员变量。</p>
+<p>从现在看来这个方案的改动是有问题的，比第一个方案还差劲。问题表现在：</p>
+<ol>
+<li>降低了内存申请和释放的灵活性（想这个方案时的潜规则，实际使用的时候是可以突破的）</li>
+<li>仅仅一个Operation，意味着在下一次操作前必须重置Operation的状态。</li>
+</ol>
+<p><strong>问题一</strong>表现在接受http响应头的处理逻辑。在收到额外raw data时，必须从Operation中AllocBuffer(raw data必须从memory pool中申请，而header的缓冲区是new出来的)拷贝raw data。这里仅仅是内存拷贝，没有涉及到网络操作，却依赖于Operation。这个确实可以直接修改掉，而不需要改动整个方案，但同时方案的概念也有被改动了。</p>
+<p><strong>问题二</strong>处理http响应头的逻辑是比较复杂的，抽象如下面伪码：<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">HandleHeader</span><span class="params">(AsynIoOperation *pOperation)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (occerError)</span><br><span class="line">    &#123;</span><br><span class="line">        Release(pOeration);</span><br><span class="line">        FailExit();</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        Reset(pOperation);</span><br><span class="line">        DoRecvData(pOperation);</span><br><span class="line">    &#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>这样在不同if else层都存在operation的release和reset操作, 代码不够简洁，分支少的时候还可以，分支多了的逻辑就复杂多了<a href="https://gist.github.com/kkfnui/a77257625ab534994340" target="_blank" rel="external">See</a>。主要还是因为再次接收数据之前需要保证Operation状态已经清空了,且之后不能随意操作Operation。这样势必要在每个分支上有对operation的操作。</p>
+<h4 id="更改pipe和operation的对应关系">更改pipe和operation的对应关系</h4><p>重新整理思路，不纠结那些细节，内存最终只有两个结局：</p>
+<ol>
+<li>直接释放</li>
+<li>交给上层释放</li>
+</ol>
+<p>如果，再次操作operation不在依赖于之前的operation，即允许pipe同时拥有多个operation，那么也就不需要在分支上立即重置operation。</p>
+<p>从现在代码逻辑上讲，异常的分支会多些。后期维护代码也是这样的，正常逻辑分支肯定会更少，而且是最先确定的。所以，可以在调用<code>HandleHeader</code>后默认释放内存，中间有需要交给上层释放，则做下标记即可。<br><figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="collection">&#123;</span><br><span class="line">    bool isNeedRelease = HandleHeader<span class="list">(<span class="keyword">pOperation</span>)</span></span><br><span class="line">    <span class="collection">&#123;</span><br><span class="line">        isNeedRelease = <span class="literal">true</span><span class="comment">;</span></span><br><span class="line">        if <span class="list">(<span class="keyword">occerError</span>)</span></span><br><span class="line">        <span class="collection">&#123;</span><br><span class="line">            FailExit<span class="list">()</span><span class="comment">;</span></span><br><span class="line">            return <span class="comment">;</span></span><br><span class="line">        &#125;</span></span><br><span class="line">        else</span><br><span class="line">        <span class="collection">&#123;</span><br><span class="line">            isNeedRelease = <span class="literal">false</span><span class="comment">;</span></span><br><span class="line">            AsynIoOperation *pNewOperation = new AsynIoOperation<span class="list">(<span class="keyword">this</span>)</span><span class="comment">;</span></span><br><span class="line">            DoRecvData<span class="list">(<span class="keyword">pNewOperation</span>)</span><span class="comment">;</span></span><br><span class="line">        &#125;</span></span><br><span class="line">    &#125;</span></span><br><span class="line">    if <span class="list">(<span class="keyword">isNeedRelease</span>)</span></span><br><span class="line">    <span class="collection">&#123;</span><br><span class="line">        Release<span class="list">(<span class="keyword">pOperation</span>)</span><span class="comment">;</span></span><br><span class="line">    &#125;</span></span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<p>此次改进还对operation重新进行了定义。</p>
+<ul>
+<li><p>operation封装网络操作，为了方便内存的控制，其中需要申请和释放内存的方法，但是Pipe中的内存不一定需要通过operation申请。</p>
+</li>
+<li><p>针对不同的网络操作可以有不同类型的operation，比如接受header和接受body就不同。主要区别于，申请和释放内存的方式不一样，如开始所提到的要求。</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> AsynTcpOperation</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> AllocBuffer(<span class="keyword">int</span> <span class="keyword">size</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        assert(m_pBuffer == <span class="keyword">NULL</span>);</span><br><span class="line">        m_pBuffer = <span class="keyword">new</span> <span class="keyword">char</span>[<span class="keyword">size</span>];</span><br><span class="line">        <span class="keyword">return</span> SUCCESS;</span><br><span class="line">    &#125;</span><br><span class="line">    ……</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> RecvRawDataOperation</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> AllocBuffer(<span class="keyword">int</span> <span class="keyword">size</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        assert(m_pBuffer == <span class="keyword">NULL</span>);</span><br><span class="line">        <span class="keyword">int</span> result = alloc_memory_pool_buffer(<span class="keyword">size</span>, &amp;m_pBuffer);</span><br><span class="line">        <span class="keyword">return</span> resutl;</span><br><span class="line">    &#125;</span><br><span class="line">    ……</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在实现HttpDataPipe的过程中，在内存管理候花了比较大的精力。由于没有把问题分析清楚，内存管理的逻辑修改过好几次。想找个人分享，但是自己想清楚了总觉得没啥内容。这个算是自己的一个总结把。</p>
+<h3 id="问题描述">问题描述</h3><p>在我现在做的模块中]]>
+    </summary>
+    
+      <category term="编程" scheme="http://blog.makerome.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[《中国游记》读后感——转折的叙述]]></title>
+    <link href="http://blog.makerome.com/2014/05/12/zhong-guo-lou-ji-reading-about-expression/"/>
+    <id>http://blog.makerome.com/2014/05/12/zhong-guo-lou-ji-reading-about-expression/</id>
+    <published>2014-05-12T15:32:59.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>周末茄子把介川龙之介的《中国游记》“塞”给我。薄薄的本，蛮精致，因此一有空闲便拿出来看了。平日里面看的也都是计算机相关的书籍，一个味道，看多了也会让人感觉乏味。</p>
+<p>《中国游记》记录的是日本知名作家介川龙之介在1920年左右到中国来采风的所见所闻。我看了个开头，就觉得有点欣喜了。倒不是对文章的内容给我带来了意外的收获，而是做着的叙事手法顺畅。关于文章内容可以看豆瓣的书评：<a href="http://book.douban.com/subject/2011778/" target="_blank" rel="external">《中国游记》豆瓣</a>。</p>
+<p>下面是我摘抄出来文章的头两段。写的是作者晕船这么一回事。</p>
+<blockquote>
+<p>就在即将从东京出发的那天，长野草风来访。他说，它打算半个月之后也去中国旅行。那是长也曾关切地建议我，随身带上防止晕船的灵丹妙药。可我想，从门司上船之后，只要两天两夜就到上海了。充其量不过两天两夜的海上旅行，还劝我带什么晕船药。长野的胆小如鼠，可见一斑。三月二十一日下午，在我攀上筑台丸的舷梯时，看见在风雨中波浪起伏的港湾，再一次对我们这位长野草粉画伯德怯海情结深表同情。</p>
+<p>可是正如俗话说所，不听古人言，吃亏在眼前。当船一进入玄海，转瞬之间，大海变得波涛汹涌起来。我和分在同一船室的马杉君一起，坐在船头甲板的藤椅里，只见海浪拍打着船舷，澎湃作响，不时地有水沫飘落在我们的头顶。海面上不用说已是白浪滔天，犹如一锅开水似的上下翻滚，轰然作响。远处有一个模糊不清的岛影进入眼帘，那该是九州的本岛吧。既便如此，坐惯了船的马杉君却还是嘴里衔着香烟，吞云吐雾，悠然自得，全无窘迫之状。我竖起外套的领子，把两手插在口袋里，是不是低送一颗仁丹到嘴里含着。总而言之，直到这时，我才深深佩服长夜草风上船之前准备晕船药的英明之举。</p>
+</blockquote>
+<p>我看了这段之后，也想到自己经常会写一些转折的内容。但是时常给自己的感觉是，转折太过突然。事情还没有描述清楚，便迫不及待地想将结果告诉大家。一下子也想不到具体的例子。如果让我来写晕船这个事情，估计就下面这点内容吧。</p>
+<blockquote>
+<p>此次去上海前，长野让我带点晕船药。我想大可不必，也不过是两天的航程。也不知道长野为什么这么胆小。结果往往出乎意料，到了船上我很快就开始晕船了。</p>
+</blockquote>
+<p>自己看着，总觉得有点像是一个冷笑话——从前有个小朋友，他不听妈妈话，结果死了。对于叙事我像是不太喜欢，估计是沾上了“嫌麻烦，写不好”的问题。</p>
+<p>分析介川写的内容，应该分了几个部分：</p>
+<ol>
+<li>起、事情的源头</li>
+<li>过程描述</li>
+<li>自己的感想</li>
+</ol>
+<p>对于转折这块，也对环境大肆的描写了一番。这样引出晕船这个事实，就显得很自然。最后，还不忘写下自己的心理活动，倒像是和人对话般亲切。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>周末茄子把介川龙之介的《中国游记》“塞”给我。薄薄的本，蛮精致，因此一有空闲便拿出来看了。平日里面看的也都是计算机相关的书籍，一个味道，看多了也会让人感觉乏味。</p>
+<p>《中国游记》记录的是日本知名作家介川龙之介在1920年左右到中国来采风的所见所闻。我看了个开头，就]]>
+    </summary>
+    
+      <category term="读后感" scheme="http://blog.makerome.com/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[被评价：编写高质量代码]]></title>
+    <link href="http://blog.makerome.com/2014/05/10/Be-evaluated-Writing%20quality%20code/"/>
+    <id>http://blog.makerome.com/2014/05/10/Be-evaluated-Writing quality code/</id>
+    <published>2014-05-09T18:00:33.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="考评评语">考评评语</h3><p>最近同事给了我一句评语“编写高质量代码”。我很欣慰也很兴奋。欣慰的是自己被认同，兴奋的是自己关注的点被认同。</p>
+<p>之前收到的一些评语，基本没有让我感到兴奋。评语内容一般是——工作态度积极、责任心强、能力强。这些评语一来太宽泛了，还有这些方面我真的不太关心。</p>
+<h3 id="过去半年">过去半年</h3><p>不过从某种程度来说，这和之前的工作内容有关系。在过去的半年里，我是负责PC端云加速开放平台。对于开发来说，主要的工作是bug修复和业务需求，实际编写一个模块的机会是很少的。所以主要的工作目标：</p>
+<ol>
+<li>尽快的修复bug、完成需求，做好产品的质量</li>
+<li>因为维护代码碰到的是坑，所以希望写的代码可维护性强</li>
+</ol>
+<p>实际在工作中解决问题的时，就会碰到修复bug需要考虑非常多的逻辑，结果修复一个bug的周期很长。最后给自己的挫折感还是蛮强的。<em>一个插曲：去年和邢老大开会，本来是想吐苦水说项目维护难，结果表达不恰当 给理解成了不想做。</em></p>
+<p>由于工作中的挫折感，外加自己对系统和算法都没有实在的了解(<em>知道有这些这些点,但细节不了解</em>)，我自己还是觉得自己能力是不行的。过去一直是在梳理模块内的逻辑，确实对于底层和算法都没有深刻的认识，这两点是需要补充的。</p>
+<p>就在这种自我感觉不好的情况下，得到了一句这么实在的评语真的很兴奋。</p>
+<h3 id="编码的一些总结">编码的一些总结</h3><p>最后，说下我在新项目中写代码的一个基本过程：</p>
+<ol>
+<li>对于整个项目整体框架的设计和理解。都是下载库，变动不是很大</li>
+<li>设计需要实现模块与外界接口和通信流程</li>
+<li>实现最基本的逻辑</li>
+<li>在之前的基础上加功能</li>
+<li>梳理增加功能后的逻辑重构</li>
+<li>步骤4、5迭代，累加新的功能</li>
+</ol>
+<p>要保证代码质量好步骤4、5很重要。</p>
+<p>另外，就是一些防止出现坏代码的“条条框框”了。如：</p>
+<ol>
+<li>代码的对称性，有始有终；</li>
+<li>可读性，运行起来要和代码写的一样；</li>
+<li>代码重复，有重复就很有可能代码结构上存在问题；</li>
+<li>断言编程，按照设计的逻辑断言不会出现某些情况</li>
+</ol>
+<p>更多框框可以看下《程序员修炼之道》、《Write Clean Code》。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="考评评语">考评评语</h3><p>最近同事给了我一句评语“编写高质量代码”。我很欣慰也很兴奋。欣慰的是自己被认同，兴奋的是自己关注的点被认同。</p>
+<p>之前收到的一些评语，基本没有让我感到兴奋。评语内容一般是——工作态度积极、责任心强、能力强。这些评语一来]]>
+    </summary>
+    
+      <category term="工作" scheme="http://blog.makerome.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+      <category term="编码" scheme="http://blog.makerome.com/tags/%E7%BC%96%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[工作中的文档]]></title>
+    <link href="http://blog.makerome.com/2014/01/12/doc-in-working/"/>
+    <id>http://blog.makerome.com/2014/01/12/doc-in-working/</id>
+    <published>2014-01-11T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
+<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
+<p>工作中文档又是信息的适配器。文档不只是给写的人看的，它还需要为其他人“服务”，有传播信息的作用。读者的拥有的背景知识又不尽相同，所以文档并不只是简单的纪实。需要作者对信息进行抽象、加工以及组织。</p>
+<h3 id="文档的好处">文档的好处</h3><p>为了更好更快的完成工作，我们需要编写一些文档。目前工作中文档带来的好处：</p>
+<ul>
+<li><p>节省交流时间</p>
+<p>  在实现具体需求的时候，开发和测试之间需要信息同步。如果不通过文档，而是口头交流，会存在两个问题：</p>
+<ol>
+<li>具体细节多的时候，口头交流的时候可能会遗漏信息</li>
+<li><p>存在反复交流的可能，比如中间有人忘了部分信息</p>
+<p>使用文档记录信息，开发过程中的信息都可以记录下，之后如果有人忘了还可以看文档，而不需要重复交流。</p>
+</li>
+</ol>
+</li>
+<li><p>文档更抽象，有利于整理思路</p>
+<p>  这点对开发人员来说是非常好的。埋头写代码时，需要关注的细节比较多，有些时候返回会在主要的逻辑上出些错误。如果能再通过一个文档整理逻辑，就会发现实现中的一些问题。(<em>这里说的是文档时实现后的文档了</em>) </p>
+</li>
+</ul>
+<h3 id="工作中常用的文档">工作中常用的文档</h3><ul>
+<li><p><strong>需求文档</strong></p>
+<p>  需求文档重要的功能是说明要做什么。我所在项目中，过去的多数需求没有文档。没有需求文档问题也不大，因为需求已经是非常细化的，有些时候都可以怀疑它不是需求而是解决方案。不过我觉得以后最好加上，记录我们做过哪些需求。(<em>一个软件需求的积累是有价值的</em>)</p>
+<p> 需求文档大概要哪些信息：标题、背景、说明、完成标准。</p>
+</li>
+<li><p><strong>设计文档 &amp; 详细设计文档</strong></p>
+<p>  这两种文档的界限不是很明确，受需求的复杂度的影响比较大。需求很简单时，设计文档也就是详细设计文档。需求复杂时，两者就有不同的分工了。设计文档偏向于解决问题的<strong>方向</strong>，而详细设计文档偏向于解决问题的<strong>过程</strong>。在开发后面需要进行的测试是更关注过程，所以详细设计文档通常是和测试交流的重点。</p>
+</li>
+<li><p><strong>测试用例</strong></p>
+<p> 测试先对解决问题的过程进行分析，记录其中关键的点。并且增加相应的测试条件与预期结果。可以将思考和行动独立成两个步骤。</p>
+</li>
+<li><p><strong>“产品”使用文档</strong></p>
+<p> 这里指的产品是泛指，它可以是一个软件，也可以是软件中的一个组件。这是我做开发平台认识比较深刻的一个东西。基于产品的在开发非常依赖于使用文档。这里的文档就不单单是文档了，可能还需要包括使用示例。</p>
+</li>
+</ul>
+<p>我非常愿意将这些文档划分成两类：<strong>需求相关文档</strong>和<strong>基础文档</strong>。基础文档和需求文档也并非完全独立的，比如一个需求完全就可以使增加一个接口。这种情况下同一份文档既可以看作是需求相关文档，可以看作是基础文档。</p>
+<h3 id="基础文档">基础文档</h3><p>上面提到的前三种都是需求相关的文档，说的比较具体了。最后一个是产品基础文档，看着觉得数量比较少，其实也可能有蛮多文档的。基础文档是一个嵌套形式的，比如一个产品有A B C D四个模块，最后应该就有5份基础文档了。</p>
+<p>现在，项目中需求相关文档都还不错，流程决定了这个文档必不可少。但是基础文档就受大家的重视了，就像公司一样“看重业务，而不注重基础技术”。</p>
+<p>基础文档一般是接口文档或者是协议文档，以及领域中定理。</p>
+<p>我们模块的接口文档是没有的，同时接口注释也没有。别说注释可能会和代码表达的意思不同，造成后人的误解。接口的含义如果经常变动那问题才更大。<strong>有份好的接口文档，对于使用者来说帮助很大</strong>。但是怎么写我也没有太多建议，想到是个好的编写方式————<strong>将内容写在程序中，然后通过工具生成文档</strong>。</p>
+<p>协议文档还是蛮全的。这里可以总结下以前的工作现象————<strong>不与分工不同的人交流时，我们是就不写文档</strong>。</p>
+<p>领域中的定理，这是软件构件的基础。这个必须可以有文档，不知道对刚接触该领域的人帮助多大！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
+<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
+<p>工作中文档又是信息的]]>
+    </summary>
+    
+      <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用redmine进行文档的管理]]></title>
+    <link href="http://blog.makerome.com/2014/01/12/manage-doc-by-redmine/"/>
+    <id>http://blog.makerome.com/2014/01/12/manage-doc-by-redmine/</id>
+    <published>2014-01-11T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="背景">背景</h2><p>最近一年来接触过3个项目流程相关工具了：trello、禅道、redmine。</p>
+<ul>
+<li>trello的功能比较简单纯粹。是一个团队协作的工具，方便成员之间同步信息的。</li>
+<li><p>禅道是一个完整的软件项目管理工具。用过一段时间，禅道的项目管理理念我是挺接受的，就是后面的需求再细分任务太麻烦了。后面因为产品和测试都不使用这个东西，也就放弃使用了。里面的主要概念：</p>
+<ul>
+<li>产品，比如算是迅雷7吧</li>
+<li>项目，迅雷7中可以独立出来的，如会员的插件</li>
+<li>版本，这个版本我的理解是项目的版本</li>
+<li>需求</li>
+<li>任务，这个是对需求按照角色再具体细化的工作了</li>
+</ul>
+</li>
+<li><p>使用redmine是基本上算是被迫的了，没得选择。在放弃使用禅道后，有重新使用trello。但这个东西容易被墙，大家使用的时候也不是很顺畅。刚接触redmine的时候被里面的一个功能深深吸引了——wiki。但是接触过一段时间redmine后，发现用户体验真实渣渣。redmine里面的文字真的不是给人看的——密密麻麻的。另外，目前对于redmine的使用也有点问题，将子项目当作版本，与redmine的管理理念不符。</p>
+</li>
+</ul>
+<p>总体来说，按用户体验来排序 trello &gt; 禅道 &gt; redmine。用户体验太差，这也是为什么在今天之前不能接受redmine的原因。之前作为一个纯使用者，确实没有怎么了解这个工具。今天看了下<a href="http://www.redmine.org/" target="_blank" rel="external">redmine</a>官网，发现它自己也是基于redmine搭建的，感觉他们的使用还可以。稍微研究了下，这东西还是个开源的软件，支持插件也可以更换主题，也有一定的社区支持。</p>
+<p>总之，现在我对于redmine还是抱有一点希望的。接下来我想说下我关于使用redmine进行文档的管理的想法。</p>
+<h2 id="怎么会想到使用redmine管理文档">怎么会想到使用redmine管理文档</h2><p>也许有人会问现在管理文档的方式不行吗？可以，但是现在使用word编写文档，按照时间创建目录结构的方法有些缺点可以被改善。</p>
+<p>在做下载库之前，做需求的时候不需要写各种文档。在接触下载库之后，开始需要写些文档，参考些文档。按照前人的习惯，就是用word来写文档。做过一两个需求之后，觉得有些问题不是很方便。</p>
+<ul>
+<li>首先，我要参考以前的文档，找文档是一件很难的事，不可以通过关键字找。相比于之前做界面开发这个就麻烦多了，以前可以使用google查找到新知识的帮助信息。</li>
+<li>其次，也许是个人因素，比较认同web的文档。web文档更容易体现知识的体系结构，这点得益于web方便的链接跳转功能(<em>word应该也可以，但是大多数人不会使用吧</em>)。</li>
+<li>最后，使用word写文档，格式不统一也是一个非常明显的问题，就我自己写过的word文档的格式已经是千差万别了。当然这个不是最重要的，但是如果可以改善就最好了。</li>
+</ul>
+<p>现在下载库有很多文档，但是由于检索的不便，这些文档很少会被人阅读到。不能充分发挥文档的作用。redmine中有全局搜索功能，这是一个比较好的索引功能，可以为各个文档带来流量体现它们的价值。</p>
+<h2 id="redmine在文档管理上的缺点">redmine在文档管理上的缺点</h2><p>刚刚说了现在的缺点，准确说这些缺点是针对redmine可以解决的点上列出来的。redmine本身也是有问题。redmine的文档管理主要是基于wiki的。wiki对于我们有下面几个缺点：</p>
+<ul>
+<li>使用wiki编写文档需要记一套特有的语法，需要团队额外的学习成本</li>
+<li>对富文本编辑的支持不足，详细设计文档中我们经常画些流程图，wiki中添加图片的过程就比较麻烦了</li>
+<li>旧文档的迁移</li>
+</ul>
+<p>也有人可能会说，目前的文档管理方式数据最终放在svn上的，数据很安全安全。而redmine的数据不安全。这个事实我得先承认，但是这个不是redmine的固有缺点，而是对于redmine我们没有提供更多的保障措施。</p>
+<p>redmine在文档管理上有优点也缺点，但是利大于弊。优点带来的好处意义深远，而缺点带来的痛苦是短暂的，也是可以被优化的。</p>
+<h2 id="怎么做">怎么做</h2><p>我对于项目中文档的理解：<a href="http://kkfnui.github.io/%E6%96%87%E6%A1%A3/2014/01/12/doc-in-working/" target="_blank" rel="external">工作中的文档</a></p>
+<p>目前对项目中文档可分为两类：需求相关文档和项目基础文档。redmine中的两个主要功能可以与之一一对应。将需求相关的文档写在问题中，基础文档写在wiki中。</p>
+<p>基础文档可以补充的内容：</p>
+<ul>
+<li>项目介绍（对内真的可以不用，但是对外对老大还是有用的）</li>
+<li>源码及编译方法（对新加入的开发特有用）</li>
+<li>领域内的基本概念</li>
+</ul>
+<p><em>以上是基于一个开发的角度考虑的</em></p>
+<p>对于怎么做，目前也是没有更多经验。基本也就靠摸石头过河吧。</p>
+<p><strong>redmine的wiki语法</strong>参考：<a href="http://www.redmine.org/projects/redmine/wiki/RedmineTextFormatting#Text-formatting-2" target="_blank" rel="external">RedmineTextFormatting</a></p>
+<h2 id="延伸">延伸</h2><p>工具的使用的深度和工具带来的效益的关系是一个倒抛物线的。工具的使用浅尝辄止和过度依赖都不是最好的，对于redmine这个工具我们还可以再挖掘下，而不是纯粹的用于记录。</p>
+<ul>
+<li><strong>Redmine</strong>的样式：<a href="http://redminecrm.com/projects/themes/pages/1" target="_blank" rel="external">http://redminecrm.com/projects/themes/pages/1</a></li>
+<li><strong>Redmine手册</strong>：<a href="http://ishare.iask.sina.com.cn/download/explain.php?fileid=37418817" target="_blank" rel="external">http://ishare.iask.sina.com.cn/download/explain.php?fileid=37418817</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="背景">背景</h2><p>最近一年来接触过3个项目流程相关工具了：trello、禅道、redmine。</p>
+<ul>
+<li>trello的功能比较简单纯粹。是一个团队协作的工具，方便成员之间同步信息的。</li>
+<li><p>禅道是一个完整的软件项目管理]]>
+    </summary>
+    
+      <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
+    
+      <category term="项目" scheme="http://blog.makerome.com/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[svn分支开发流程说明]]></title>
+    <link href="http://blog.makerome.com/2014/01/04/branch-develop-flow-base-on-svn/"/>
+    <id>http://blog.makerome.com/2014/01/04/branch-develop-flow-base-on-svn/</id>
+    <published>2014-01-03T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<p>工作中我们使用svn来管理源码。之前基于svn来开发需求的基本流程：</p>
+<ol>
+<li>开发在本地将需求完成</li>
+<li>将代码修改提交到svn，由编译机统一编译</li>
+<li>统一编译后，将产品提交给测试</li>
+<li>开始测试产品</li>
+</ol>
+<p>这样的使用方法会有以下几个问题：</p>
+<ol>
+<li>不能及时的将代码提交到svn上，存在代码丢失的风险</li>
+<li><p>需求内bug的修复，提交svn产生噪音</p>
+<p>上面开发的基本流程，在最理想的状态下是没有问题的。事实上，步骤2，4都会产生问题,造成主干上的垃圾日志就变多。</p>
+<ul>
+<li>提交时忘记先添加某个新加的文件(<em>开发本地编译没有问题，但是编译机无发通过</em>)</li>
+<li>测试发现问题，这个时候必须修复问题吧，又得提交一次</li>
+</ul>
+</li>
+<li><p>不方便bug定位</p>
+<p>这点也是因为上面说的日志噪音产生的。想象下产品上线后，发现一个bug，我们需要定位是哪个需求引入的。<br>一个需求的svn提交记录很多，到底改了哪些东西就不是那么容易确定了。</p>
+</li>
+</ol>
+<h3 id="svn使用流程">svn使用流程</h3><p>对于上面提出的问题，解决方案会有多个。可以要求开发人员提交svn时不能出现低级错误，开发需求不能出现bug。好吧，这个是开玩笑的了。从现在的经验看来，这些问题都无法避免。错误既然无法避免，那么就修改流程允许错误的出现，同时不会带来坏的影响。</p>
+<p>下面就是我关于svn使用流程的一个想法：</p>
+<ol>
+<li>一个需求必须创建一个独立的svn分支</li>
+<li>开发和测试这个过程，都是基于这个svn分支的</li>
+<li>测试确认最终没有问题后，合并到主干上</li>
+</ol>
+<p>在理想情况下，主干上的每次修改都是稳定的、可发布的。</p>
+<p>同上面分析以前的流程一样，我们同样不能将整个流程看的太顺利。</p>
+<ol>
+<li><p>创建svn分支。</p>
+<p>不会创建svn分支？不能创建svn分支？如果在这里出现了问题，影响将会是最小的</p>
+</li>
+<li><p>开发和测试的迭代</p>
+<p>这个过程是允许出错的</p>
+</li>
+<li><p>合并需求到主干</p>
+<p>这个过程很重要，这就相当于一个产品的发布。在没有修改冲突的时候，我们可以直接使用svn的merge操作。比较麻烦的是有冲突，需要相关人员一起来合并代码了。</p>
+</li>
+</ol>
+<p><strong>问题</strong></p>
+<ol>
+<li><p>每个需求都创建一个分支是否有必要？</p>
+<p><strong>有必要</strong>。</p>
+<p>如果不是一个需求一个分支，那么两种可能：多个需求多个分支和一个需求多个分支（<em>有病的感觉，纯粹是分析问题为了保证完整性</em>）；多个需求一个分支，这个挺正常的。</p>
+<p>先来分析下最后一种情况，说下这样做不太合适的地方。合并一个分支到主干发布，这个分支包括了需求1、2、3。现在产品发布出去了，结果出现了bug（性能问题）。现在我们要分析是那个改动引入的。分析定位问题要做到，最终问题可以被，所以越精确越好。这种情况逐渐缩小搜索问题可能出现的范围是一个最好的解决方案。即需要定位哪个需求引入的，那么要从一次提交中拆分三个不同的需求。没有做过需求的人根本不知道怎么拆分。</p>
+<p>每个需求一个分支除了能解决上面的问题，还允许并行开发。</p>
+<p>最后，我有一个目标，就是在主干的日志上，可以一目了然的看清楚在什么时间发布了什么改动。</p>
+</li>
+<li><p>很简单的一个需求，创建一个分支，最后还需要合并代码是不是过于麻烦了？</p>
+<p>在回答这个问题前，我希望我们对于第一个问题已经达成共识。</p>
+<p>简单的定义，这是一个比较泛的东西，不容易界定。这里就给它一个定义：与其他需求在代码的修改上不存在冲突。现在这个问题的关键字就是<strong>麻烦</strong>了。我不认为这是一个麻烦的操作，不存在冲突，合并代码这个操作工具就可以帮助完成了。</p>
+</li>
+</ol>
+<h3 id="工具的使用">工具的使用</h3><p>工具不是我们的目标，但是工具可以帮助我们实现目标，影响我们的思路。</p>
+<p>下面我说下我对svn分支操作的理解。工作中都是使用<strong>Tortoise SVN</strong>客户端的，下面就使用它来说明下相关的操作。</p>
+<ul>
+<li>如果svn基本操作不会的可以先参考：<a href="http://blog.csdn.net/dily3825002/article/details/6717076" target="_blank" rel="external">http://blog.csdn.net/dily3825002/article/details/6717076</a></li>
+<li>更多更具体的操作可以参考：<a href="http://tortoisesvn.net/docs/nightly/TortoiseSVN_zh_CN/index.html" target="_blank" rel="external">http://tortoisesvn.net/docs/nightly/TortoiseSVN_zh_CN/index.html</a></li>
+</ul>
+<p>按照上面说的流程，需要创建分支、在分支上开发、合并分支。</p>
+<p>创建分支比较简单，可以参考上面的两个链接。</p>
+<p>创建完成分支之后，需要在分支上开发。以前我比较笨，就从svn的上checkout分支下来。其实不需要这么麻烦，svn有个switch命令，可以改变本地路径对应的svn url。给人的感觉，创建分支是和没有创建分支一样。详细的介绍：<a href="http://www.cnblogs.com/dabaopku/archive/2011/05/21/2052820.html" target="_blank" rel="external">http://www.cnblogs.com/dabaopku/archive/2011/05/21/2052820.html</a></p>
+<p><strong>分支合并</strong>有两种情况，没有冲突和有冲突。</p>
+<blockquote>
+<p><strong>备注：</strong>这块得有截图一步步演示，会比较好。但是上传截图有点麻烦的，后面录制个视频吧。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>工作中我们使用svn来管理源码。之前基于svn来开发需求的基本流程：</p>
+<ol>
+<li>开发在本地将需求完成</li>
+<li>将代码修改提交到svn，由编译机统一编译</li>
+<li>统一编译后，将产品提交给测试</li>
+<li>开始测试产品</li>
+</o]]>
+    </summary>
+    
+      <category term="svn" scheme="http://blog.makerome.com/tags/svn/"/>
+    
+      <category term="流程" scheme="http://blog.makerome.com/tags/%E6%B5%81%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[markdown synatx]]></title>
+    <link href="http://blog.makerome.com/2013/12/28/mark-down-synatx/"/>
+    <id>http://blog.makerome.com/2013/12/28/mark-down-synatx/</id>
+    <published>2013-12-27T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Phrase_Emphasis">Phrase Emphasis</h2><pre><code><span class="keyword">*</span>italic<span class="keyword">*</span>   <span class="keyword">*</span><span class="keyword">*</span>bold<span class="keyword">*</span><span class="keyword">*</span>
+_italic_   __bold__
+</code></pre><h2 id="Links">Links</h2><p>Inline:</p>
+<pre><code>An [<span class="link_label">example</span>](<span class="link_url">http://url.com/ "Title"</span>)
+</code></pre><p>Reference-style labels (titles are optional):</p>
+<pre><code>An [<span class="link_label">example</span>][<span class="link_reference">id</span>]. Then, anywhere
+else in the doc, define the link:
+
+  [id]: http://example.com/  "Title"
+</code></pre><h2 id="Images">Images</h2><p>Inline (titles are optional):</p>
+<pre><code>![<span class="link_label">alt text</span>](<span class="link_url">/path/img.jpg "Title"</span>)
+</code></pre><p>Reference-style:</p>
+<pre><code>![<span class="link_label">alt text</span>][<span class="link_reference">id</span>]
+
+[<span class="link_reference">id</span>]:<span class="link_url"> /url/to/img.jpg "Title"</span>
+</code></pre><h2 id="Headers">Headers</h2><p>Setext-style:</p>
+<pre><code><span class="header">Header 1
+========</span>
+
+<span class="header">Header 2
+--------</span>
+</code></pre><p>atx-style (closing #’s are optional):</p>
+<pre><code><span class="preprocessor"># Header 1 #</span>
+
+<span class="preprocessor">## Header 2 ##</span>
+
+<span class="preprocessor">###### Header 6</span>
+</code></pre><h2 id="Lists">Lists</h2><p>Ordered, without paragraphs:</p>
+<pre><code><span class="bullet">1.  </span>Foo
+<span class="bullet">2.  </span>Bar
+</code></pre><p>Unordered, with paragraphs:</p>
+<pre><code>*   A <span class="type">list</span> <span class="property">item</span>.
+
+    With multiple <span class="property">paragraphs</span>.
+
+*   Bar
+</code></pre><p>You can nest them:</p>
+<pre><code><span class="keyword">*</span>   Abacus
+    <span class="keyword">*</span> answer
+<span class="keyword">*</span>   Bubbles
+    1.  bunk
+    2.  bupkis
+        <span class="keyword">*</span> BELITTLER
+    3. burper
+<span class="keyword">*</span>   Cunning
+</code></pre><h2 id="Blockquotes">Blockquotes</h2><pre><code><span class="blockquote">&gt; Email-style angle brackets</span>
+<span class="blockquote">&gt; are used for blockquotes.</span>
+
+<span class="blockquote">&gt; &gt; And, they can be nested.</span>
+
+<span class="blockquote">&gt; #### Headers in blockquotes</span>
+<span class="blockquote">&gt; 
+&gt; * You can quote a list.</span>
+<span class="blockquote">&gt; * Etc.</span>
+</code></pre><h2 id="Code_Spans">Code Spans</h2><pre><code><span class="escape">`&lt;</span>code&gt;<span class="escape">` </span>spans are delimited
+by backticks.
+
+You can include literal backticks
+like <span class="escape">``</span> <span class="escape">`t</span>his<span class="escape">` </span><span class="escape">``</span>.
+</code></pre><h2 id="Preformatted_Code_Blocks">Preformatted Code Blocks</h2><p>Indent every line of a code block by at least 4 spaces or 1 tab.</p>
+<pre><code>This is <span class="tag">a</span> <span class="attribute">normal</span> paragraph.
+
+    This is <span class="tag">a</span> preformatted
+    <span class="tag">code</span> block.
+</code></pre><h2 id="Horizontal_Rules">Horizontal Rules</h2><p>Three or more dashes or asterisks:</p>
+<pre><code><span class="horizontal_rule">---</span>
+
+<span class="bullet">* </span><span class="bullet">* *</span>
+
+<span class="bullet">- </span>- - - 
+</code></pre><h2 id="Manual_Line_Breaks">Manual Line Breaks</h2><p>End a line with two or more spaces:</p>
+<pre><code>Roses are <span class="built_in">red</span>,   
+Violets are <span class="built_in">blue</span>.
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Phrase_Emphasis">Phrase Emphasis</h2><pre><code><span class="keyword">*</span>italic<span class="keyword">*</span>   <span class="ke]]>
+    </summary>
+    
+      <category term="markdown" scheme="http://blog.makerome.com/tags/markdown/"/>
+    
+      <category term="synatx" scheme="http://blog.makerome.com/tags/synatx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[解析markdown的想法]]></title>
+    <link href="http://blog.makerome.com/2013/12/28/thinking-about-md/"/>
+    <id>http://blog.makerome.com/2013/12/28/thinking-about-md/</id>
+    <published>2013-12-27T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
+<p><a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a> 这个在线编辑器功能很强大，用户体验很好,这篇文档就在这上边编写完成的。它提供了和google、dropbox以及github的互操作，对我来说的功能已经溢出了。</p>
+<p>前几天使用的是<a href="http://maxiang.info" target="_blank" rel="external">马克飞象</a> 这款编辑器写的文档，可以和Evernote打通，也非常棒。比较两者，发现各自对Markdown的语法支持有差异。</p>
+<p>使用两者之后的感受，各有各的好处吧。但是这种面向大众使用产品，个人的操作效率肯定不是最高的。比如，我特别想通过StackEdit一键发布博文，保存到GitHub的路径可以自动确定。有种声音，改变它，让它符合自己的操作习惯。</p>
+<p>上面提到的StackEdit编辑器是开源的，如果想增加特化的功能，可以自己修改源码实现。源码地址：<a href="https://github.com/benweet/stackedit" target="_blank" rel="external">https://github.com/benweet/stackedit</a></p>
+<p>从满足自己的需求角度出发，我应该基于<em>StackEdit</em>自己再做二次开发的。可是总有一种想法驱赶我:”你应该自己造个轮子解析Markdown”。<br>这两个事相差的有点远了。有些时候，也不知道自己为什么会这样想。</p>
+<p>应该就是<a href="http://www.zhihu.com/question/22380750" target="_blank" rel="external">我能</a>这个道理吧。</p>
+<h3 id="一点想法">一点想法</h3><p><code>词法解析</code>这块完全没有经验。</p>
+<p>印象中需要使用到<code>树</code>和<code>状态机</code>吧。大学里面没有好好学习数据结构，学了的也还给老师了。所以这块肯定是要重现学习的。状态机倒也还算实践过，但却也没有说能轻松搞定的勇气。</p>
+<p>涉及到<code>字符串编码</code>的问题，这个倒还比较熟悉。却也没有真正研究过，比如在内存解析时使用utf8编码，怎么遍历字符和字符匹配呢？</p>
+<p>总体来说，是零基础开始做了。</p>
+<h3 id="计划">计划</h3><p>这块肯定已经有比较成熟的解析器。应该先借鉴下现有的实现，怎么也得踩下别人的肩膀。另外现在已经可以预见的知识也要准备下：</p>
+<ul>
+<li>树数据结构算法</li>
+<li>状态机</li>
+<li>字符串编码</li>
+<li>Markdown的语法</li>
+</ul>
+<p>最后一句，”善始者实繁，克终者盖寡”。算是激励自己，也为自己找个台阶。</p>
+<blockquote>
+<p><strong>补充：</strong>突然想到自己做事不从需求出发，应该是被人洗脑了，看大神言论看多了。算了，这次认栽了！</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
+<p><a h]]>
+    </summary>
+    
+      <category term="markdown" scheme="http://blog.makerome.com/tags/markdown/"/>
+    
+  </entry>
+  
+</feed>
