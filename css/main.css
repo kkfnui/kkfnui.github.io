@@ -912,6 +912,7 @@ body {
 }
 .main {
   padding-bottom: 150px;
+  padding-top: 40px;
 }
 .main-inner {
   margin: 0 auto;
@@ -1167,7 +1168,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f541aa;
+  background: #ff1855;
 }
 .sidebar-nav {
   margin: 0;
