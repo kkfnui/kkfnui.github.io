@@ -122,6 +122,109 @@
           
           
             
+              <a class="post-title-link" href="/2013/12/28/thinking-about-md/#main">
+                解析markdown的想法
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2013-12-27
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2013/12/28/thinking-about-md/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2013/12/28/thinking-about-md/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
+<p><a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a> 这个在线编辑器功能很强大，用户体验很好,这篇文档就在这上边编写完成的。它提供了和google、dropbox以及github的互操作，对我来说的功能已经溢出了。</p>
+<p>前几天使用的是<a href="http://maxiang.info" target="_blank" rel="external">马克飞象</a> 这款编辑器写的文档，可以和Evernote打通，也非常棒。比较两者，发现各自对Markdown的语法支持有差异。</p>
+<p>使用两者之后的感受，各有各的好处吧。但是这种面向大众使用产品，个人的操作效率肯定不是最高的。比如，我特别想通过StackEdit一键发布博文，保存到GitHub的路径可以自动确定。有种声音，改变它，让它符合自己的操作习惯。</p>
+<p>上面提到的StackEdit编辑器是开源的，如果想增加特化的功能，可以自己修改源码实现。源码地址：<a href="https://github.com/benweet/stackedit" target="_blank" rel="external">https://github.com/benweet/stackedit</a></p>
+<p>从满足自己的需求角度出发，我应该基于<em>StackEdit</em>自己再做二次开发的。可是总有一种想法驱赶我:”你应该自己造个轮子解析Markdown”。<br>这两个事相差的有点远了。有些时候，也不知道自己为什么会这样想。</p>
+<p>应该就是<a href="http://www.zhihu.com/question/22380750" target="_blank" rel="external">我能</a>这个道理吧。</p>
+<h3 id="一点想法">一点想法</h3><p><code>词法解析</code>这块完全没有经验。</p>
+<p>印象中需要使用到<code>树</code>和<code>状态机</code>吧。大学里面没有好好学习数据结构，学了的也还给老师了。所以这块肯定是要重现学习的。状态机倒也还算实践过，但却也没有说能轻松搞定的勇气。</p>
+<p>涉及到<code>字符串编码</code>的问题，这个倒还比较熟悉。却也没有真正研究过，比如在内存解析时使用utf8编码，怎么遍历字符和字符匹配呢？</p>
+<p>总体来说，是零基础开始做了。</p>
+<h3 id="计划">计划</h3><p>这块肯定已经有比较成熟的解析器。应该先借鉴下现有的实现，怎么也得踩下别人的肩膀。另外现在已经可以预见的知识也要准备下：</p>
+<ul>
+<li>树数据结构算法</li>
+<li>状态机</li>
+<li>字符串编码</li>
+<li>Markdown的语法</li>
+</ul>
+<p>最后一句，”善始者实繁，克终者盖寡”。算是激励自己，也为自己找个台阶。</p>
+<blockquote>
+<p><strong>补充：</strong>突然想到自己做事不从需求出发，应该是被人洗脑了，看大神言论看多了。算了，这次认栽了！</p>
+</blockquote>
+
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/markdown/">
+                #markdown
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2012/08/10/First-Time-Swim-After-Take-Part-In-Work/#main">
                 工作后第一次游泳
               </a>
@@ -346,11 +449,11 @@
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">29</span>
+            <span class="site-state-item-count">30</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">

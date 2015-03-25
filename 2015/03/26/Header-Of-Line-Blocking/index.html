@@ -20,9 +20,9 @@
 
 
 
-	<meta name="keywords" content="工具,程序," />
+	<meta name="keywords" content="Network," />
 
-  <title> 捣腾隐藏任务栏的小工具 // kkfnui's blog </title>
+  <title> Header-Of-Line-Blocking // kkfnui's blog </title>
 </head>
 
 <body>
@@ -97,7 +97,7 @@
           
           
             
-              捣腾隐藏任务栏的小工具
+              Header-Of-Line-Blocking
             
           
         </h1>
@@ -106,7 +106,7 @@
       <div class="post-meta">
         <span class="post-time">
           
-            发表于 2012-03-10
+            发表于 2015-03-25
           
         </span>
 
@@ -118,8 +118,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2012/03/11/Hide-Windows-Tool-Bar/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2012/03/11/Hide-Windows-Tool-Bar/"></span>
+            <a href="/2015/03/26/Header-Of-Line-Blocking/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/03/26/Header-Of-Line-Blocking/"></span>
             </a>
           </span>
           
@@ -134,19 +134,26 @@
         
 
         
-          <p>平时写工作的时候，会开很多程序：记事本、浏览器、Explorer、IDE、QQ、RTX等。<br>在写程序的时候看到这样的任务栏，觉得非常乱呀。<br>有段时间我试过将任务栏设置成自动隐藏的，但是鼠标一不小心划到任务栏上，它就弹出来了，就挡住了正在编辑的代码区域。</p>
-<p>事实上，这个小工具实现原理很简单：使用<code>FindWindow</code>找到任务栏的窗口，将其设置成隐藏的便可以了。<br>可是整个实现的过程却走了些弯路：</p>
+          <p>在了解HTTP/2的时候看到了这个名词，字面意思是在队列前面的发生了阻塞。</p>
+<p>在维基百科里面了解到了以下情况会出现：</p>
 <ul>
-<li><p>一开始便是错误的使用了<code>FindWindow</code>这个方法。我是通过类名来查找窗口的，所以不用传入Title参数。<br>于是我便传进了一个空字符串，而正确的做法是传入NULL。看来最近在搞脚本开发对于C++产生了影响了，是两种语言的编程思想有所差异的原因吧。</p>
-</li>
-<li><p>再者是自己对于Windows的了解太少了。任务栏隐藏后，程序最大化时也无法占据该区域。<br>我一直想通过设置Windows默认窗体最大化的高度来解决这个问题。可是我没有认识到，这个值Windows肯定是不可能直接暴露出来的。<br>后面 @王俊 同学提醒到，这和全屏功能很像，并找出了问题根本的原因————没有捕获其他程序的 <code>WM_GETMINMAXINFO</code>的消息。</p>
-</li>
-<li><p>最终，想到为什么不先将任务栏设置成自动隐藏，如果出现了开始所说的情况再将任务栏设置成不可见呢。</p>
-</li>
+<li>使用FIFO 输入缓冲队列的交换机，改现象会大大降低交换机的吞吐量</li>
+<li>HTTP pipeline</li>
 </ul>
-<p>为了方便操作，在实际的使用中我用<a href="http://mayhem.codeplex.com/" title="Mayhem" target="_blank" rel="external">http://mayhem.codeplex.com/</a>这个工具来绑定了快捷键。<br>昨天刚在新闻里面看到Mayhem，使用它主要原因是为了尝鲜。</p>
-<p>工具源码的地址：<a href="https://github.com/kkfnui/Experiments/tree/master/My%20Tools/Control_Task_Bar" target="_blank" rel="external">https://github.com/kkfnui/Experiments/tree/master/My%20Tools/Control_Task_Bar</a></p>
-<p>现在这样设置之后，看任务确实不方便了。有时想切换任务不方便，尤其是用Window默认的Alt+Tab操作。于是就在网上找了个工具：<a href="http://www.ntwind.com/software/vistaswitcher.html" title="VistaSwitcher " target="_blank" rel="external">http://www.ntwind.com/software/vistaswitcher.html</a></p>
+<p>两者的共性是相同的，前面有个比较弱的家伙在挡道。</p>
+<a id="more"></a>
+<h2 id="SWITCH">SWITCH</h2><p><img src="/image/switch_holb.png" alt="switch_holb"></p>
+<p>交换机有4个输入队列，4个输出端口。第一和第三输入队列都在给第四输出端口发送数据，此时可能先发送第三队列的数据。那么第一个队就要阻塞，而其后面的一个数据是要发送到第三输出端口。造成资源浪费了。</p>
+<h2 id="HTTP">HTTP</h2><p>在HTTP 1.0 的时候，每个连接只能请求一个资源。这种方式性能较低。建立连接成本高，而下载网页或者小图片其传递的数据量不多。<br>后来在 HTTP 1.1时，引入了 keepalive、 pipeline。</p>
+<ul>
+<li>keepalive，允许连接复用从而更提升连接的利用率，但是增加了第二次请求响应的延迟</li>
+<li>pipeline，允许在第一次响应完全接收到之前可以发送第二次请求，从而减少延迟</li>
+</ul>
+<p><img src="/image/http_pipeline.png" alt="http_pipeline"></p>
+<p>在使用pipeline的时候就会碰到了HOLB的问题，比如第一次请求的是一个大文件，而后面请求的文件较小。那么小的文件就会被阻塞了。</p>
+<h2 id="How_HTTP/2_Addresses_HOLB">How HTTP/2 Addresses HOLB</h2><p>HTTP/2 通过多路复用解决了这个问题。在一条TCP连接上可以同时进行多次请求和响应。这是怎么做到的呢？TCP不是可靠有序的传输吗？</p>
+<p>粗略的看了下HTTP/2在TCP的传输层之上重新抽象了一个传输层。 TCP流—&gt; Frame —&gt; 虚拟流。</p>
+<p>一片关于HTTP/2 的中文博客：<a href="http://www.blogjava.net/yongboy/archive/2015/03/19/423611.html" target="_blank" rel="external">http://www.blogjava.net/yongboy/archive/2015/03/19/423611.html</a></p>
 
         
       </div>
@@ -157,12 +164,8 @@
         
           <div class="post-tags">
             
-              <a href="/tags/工具/">
-                #工具
-              </a>
-            
-              <a href="/tags/程序/">
-                #程序
+              <a href="/tags/Network/">
+                #Network
               </a>
             
           </div>
@@ -172,11 +175,11 @@
           <div class="post-nav">
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2012/08/10/First-Time-Swim-After-Take-Part-In-Work/">工作后第一次游泳</a>
-              
             </div>
 
             <div class="post-nav-next post-nav-item">
+              
+                <a href="/2015/03/23/recommend-gtd/">GTD时间管理方法推荐</a>
               
             </div>
           </div>
@@ -193,8 +196,8 @@
   
     <div class="comments" id="comments">
       
-        <div class="ds-thread" data-thread-key="2012/03/11/Hide-Windows-Tool-Bar/"
-             data-title="捣腾隐藏任务栏的小工具" data-url="http://blog.makerome.com/2012/03/11/Hide-Windows-Tool-Bar/">
+        <div class="ds-thread" data-thread-key="2015/03/26/Header-Of-Line-Blocking/"
+             data-title="Header-Of-Line-Blocking" data-url="http://blog.makerome.com/2015/03/26/Header-Of-Line-Blocking/">
         </div>
 
       
@@ -288,7 +291,7 @@
         <div class="post-toc">
           
           
-            <p class="post-toc-empty">此文章未包含目录</p>
+            <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SWITCH"><span class="nav-number">1.</span> <span class="nav-text">SWITCH</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP"><span class="nav-number">2.</span> <span class="nav-text">HTTP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How_HTTP/2_Addresses_HOLB"><span class="nav-number">3.</span> <span class="nav-text">How HTTP/2 Addresses HOLB</span></a></li></ol></div>
           
         </div>
         <div class="post-toc-indicator-bottom post-toc-indicator"></div>

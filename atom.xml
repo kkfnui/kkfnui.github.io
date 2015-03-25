@@ -4,7 +4,7 @@
   <subtitle><![CDATA[learn & share]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.makerome.com/"/>
-  <updated>2015-03-24T16:34:05.000Z</updated>
+  <updated>2015-03-25T16:40:27.000Z</updated>
   <id>http://blog.makerome.com/</id>
   
   <author>
@@ -13,6 +13,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Header-Of-Line-Blocking]]></title>
+    <link href="http://blog.makerome.com/2015/03/26/Header-Of-Line-Blocking/"/>
+    <id>http://blog.makerome.com/2015/03/26/Header-Of-Line-Blocking/</id>
+    <published>2015-03-25T16:17:55.000Z</published>
+    <updated>2015-03-25T16:40:27.000Z</updated>
+    <content type="html"><![CDATA[<p>在了解HTTP/2的时候看到了这个名词，字面意思是在队列前面的发生了阻塞。</p>
+<p>在维基百科里面了解到了以下情况会出现：</p>
+<ul>
+<li>使用FIFO 输入缓冲队列的交换机，改现象会大大降低交换机的吞吐量</li>
+<li>HTTP pipeline</li>
+</ul>
+<p>两者的共性是相同的，前面有个比较弱的家伙在挡道。</p>
+<a id="more"></a>
+<h2 id="SWITCH">SWITCH</h2><p><img src="/image/switch_holb.png" alt="switch_holb"></p>
+<p>交换机有4个输入队列，4个输出端口。第一和第三输入队列都在给第四输出端口发送数据，此时可能先发送第三队列的数据。那么第一个队就要阻塞，而其后面的一个数据是要发送到第三输出端口。造成资源浪费了。</p>
+<h2 id="HTTP">HTTP</h2><p>在HTTP 1.0 的时候，每个连接只能请求一个资源。这种方式性能较低。建立连接成本高，而下载网页或者小图片其传递的数据量不多。<br>后来在 HTTP 1.1时，引入了 keepalive、 pipeline。</p>
+<ul>
+<li>keepalive，允许连接复用从而更提升连接的利用率，但是增加了第二次请求响应的延迟</li>
+<li>pipeline，允许在第一次响应完全接收到之前可以发送第二次请求，从而减少延迟</li>
+</ul>
+<p><img src="/image/http_pipeline.png" alt="http_pipeline"></p>
+<p>在使用pipeline的时候就会碰到了HOLB的问题，比如第一次请求的是一个大文件，而后面请求的文件较小。那么小的文件就会被阻塞了。</p>
+<h2 id="How_HTTP/2_Addresses_HOLB">How HTTP/2 Addresses HOLB</h2><p>HTTP/2 通过多路复用解决了这个问题。在一条TCP连接上可以同时进行多次请求和响应。这是怎么做到的呢？TCP不是可靠有序的传输吗？</p>
+<p>粗略的看了下HTTP/2在TCP的传输层之上重新抽象了一个传输层。 TCP流—&gt; Frame —&gt; 虚拟流。</p>
+<p>一片关于HTTP/2 的中文博客：<a href="http://www.blogjava.net/yongboy/archive/2015/03/19/423611.html" target="_blank" rel="external">http://www.blogjava.net/yongboy/archive/2015/03/19/423611.html</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在了解HTTP/2的时候看到了这个名词，字面意思是在队列前面的发生了阻塞。</p>
+<p>在维基百科里面了解到了以下情况会出现：</p>
+<ul>
+<li>使用FIFO 输入缓冲队列的交换机，改现象会大大降低交换机的吞吐量</li>
+<li>HTTP pipeline</li>
+</ul>
+<p>两者的共性是相同的，前面有个比较弱的家伙在挡道。</p>]]>
+    
+    </summary>
+    
+      <category term="Network" scheme="http://blog.makerome.com/tags/Network/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[GTD时间管理方法推荐]]></title>
@@ -1028,44 +1070,6 @@ Violets are <span class="built_in">blue</span>.
       <category term="markdown" scheme="http://blog.makerome.com/tags/markdown/"/>
     
       <category term="synatx" scheme="http://blog.makerome.com/tags/synatx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[解析markdown的想法]]></title>
-    <link href="http://blog.makerome.com/2013/12/28/thinking-about-md/"/>
-    <id>http://blog.makerome.com/2013/12/28/thinking-about-md/</id>
-    <published>2013-12-27T16:00:00.000Z</published>
-    <updated>2015-03-23T15:04:45.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
-<p><a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a> 这个在线编辑器功能很强大，用户体验很好,这篇文档就在这上边编写完成的。它提供了和google、dropbox以及github的互操作，对我来说的功能已经溢出了。</p>
-<p>前几天使用的是<a href="http://maxiang.info" target="_blank" rel="external">马克飞象</a> 这款编辑器写的文档，可以和Evernote打通，也非常棒。比较两者，发现各自对Markdown的语法支持有差异。</p>
-<p>使用两者之后的感受，各有各的好处吧。但是这种面向大众使用产品，个人的操作效率肯定不是最高的。比如，我特别想通过StackEdit一键发布博文，保存到GitHub的路径可以自动确定。有种声音，改变它，让它符合自己的操作习惯。</p>
-<p>上面提到的StackEdit编辑器是开源的，如果想增加特化的功能，可以自己修改源码实现。源码地址：<a href="https://github.com/benweet/stackedit" target="_blank" rel="external">https://github.com/benweet/stackedit</a></p>
-<p>从满足自己的需求角度出发，我应该基于<em>StackEdit</em>自己再做二次开发的。可是总有一种想法驱赶我:”你应该自己造个轮子解析Markdown”。<br>这两个事相差的有点远了。有些时候，也不知道自己为什么会这样想。</p>
-<p>应该就是<a href="http://www.zhihu.com/question/22380750" target="_blank" rel="external">我能</a>这个道理吧。</p>
-<h3 id="一点想法">一点想法</h3><p><code>词法解析</code>这块完全没有经验。</p>
-<p>印象中需要使用到<code>树</code>和<code>状态机</code>吧。大学里面没有好好学习数据结构，学了的也还给老师了。所以这块肯定是要重现学习的。状态机倒也还算实践过，但却也没有说能轻松搞定的勇气。</p>
-<p>涉及到<code>字符串编码</code>的问题，这个倒还比较熟悉。却也没有真正研究过，比如在内存解析时使用utf8编码，怎么遍历字符和字符匹配呢？</p>
-<p>总体来说，是零基础开始做了。</p>
-<h3 id="计划">计划</h3><p>这块肯定已经有比较成熟的解析器。应该先借鉴下现有的实现，怎么也得踩下别人的肩膀。另外现在已经可以预见的知识也要准备下：</p>
-<ul>
-<li>树数据结构算法</li>
-<li>状态机</li>
-<li>字符串编码</li>
-<li>Markdown的语法</li>
-</ul>
-<p>最后一句，”善始者实繁，克终者盖寡”。算是激励自己，也为自己找个台阶。</p>
-<blockquote>
-<p><strong>补充：</strong>突然想到自己做事不从需求出发，应该是被人洗脑了，看大神言论看多了。算了，这次认栽了！</p>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
-<p><a h]]>
-    </summary>
-    
-      <category term="markdown" scheme="http://blog.makerome.com/tags/markdown/"/>
     
   </entry>
   

@@ -122,6 +122,120 @@
           
           
             
+              <a class="post-title-link" href="/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/#main">
+                定位小米公司网络中下载引擎速度慢问题
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2014-10-26
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <p>最近到小米公司出差，目的是保证迅雷加速引擎嵌入Miui v6的稳定版中。</p>
+<p>加速引擎的亮点是高速下载，结果在小米的网络中下载速度反而没有最简单的单连接下载快。具体现象：</p>
+<ul>
+<li>加速引擎：任务开始一段时间后速度可以达到2M/s，过了一段时间速度突然下降。在白天速度可以将到100～200KB/s，晚上没什么人使用的时候高些——1MB/s</li>
+<li>浏览器： 速度很稳定一直保持在2.5M/s，白天晚上都一样</li>
+</ul>
+<p>分析现象猜测有几个原因：</p>
+<ul>
+<li>原始资源非常强，使用多连接反而会降低下载速度</li>
+<li>wifi热点的性能有问题，连接多的时候为各个连接提供的速度总和反而没有单连接给力</li>
+</ul>
+<p>第一点会影响下载速度，但是对下载速度的影响不会那么大。</p>
+<p>在验证第二个点的时候，使用了IDM，这个工具对定位问题的帮助很大。IDM 也是一个下载软件，支持多连接下载，还可以方便的设置下载任务使用的连接数。在夜晚做了几组试验对比：</p>
+<ul>
+<li>连接数为 1， 下载速度平稳一直是 2.3～2.5M/s</li>
+<li>连接数为 2， 开始下载速度是在2M/s以上，但是很快就往下降最终稳定在1M/s左右</li>
+<li>连接数为 4， 现象和连接数为 2 的一样</li>
+<li>连接数为 8,  现象和连接数为 2 的一样</li>
+</ul>
+<p>因为下载引擎最多也就使用10条连接左右，所以没有测试更多的连接数。</p>
+<p>现象不能证明猜测的原因2。仔细观察发现idm在使用多连接下载的时候会在第一条连接获取到文件大小后断开，后面的请求都是分块请求。</p>
+<p>猜测是网络对于带有 range 的http请求做了限制。后面做了一些测试验证了该观点：</p>
+<ul>
+<li>单连接下载情况，一个带range，一个不带range请求，结果带range下了速度是1M/s，不带range的是2.5M/s</li>
+<li>多连接情况，包涵一个不带range请求和三个带range请求的连接，下载速度也能一直保持2.5M/s</li>
+</ul>
+<blockquote>
+<p>总结：在开始猜测原因二的时候，还是有先入为主的毛病。当有人提出异议的时候，只是记住维护自己的观点，好像根本考虑别人的观点。<br>思维方式还是太局限了。</p>
+</blockquote>
+
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/下载/">
+                #下载
+              </a>
+            
+              <a href="/tags/测试/">
+                #测试
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2014/06/09/syn-lock-on-different-platform/#main">
                 pthread_cond_signal和SetEvent的差异
               </a>
@@ -1278,109 +1392,6 @@ Violets are <span class="built_in">blue</span>.
 
 
   
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2013/12/28/thinking-about-md/#main">
-                解析markdown的想法
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            发表于 2013-12-27
-          
-        </span>
-
-        
-          
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2013/12/28/thinking-about-md/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2013/12/28/thinking-about-md/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    
-      <div class="post-body">
-
-        
-        
-
-        
-          
-            <h3 id="前因">前因</h3><p>这几天用<em>Markdown</em>写东西越写越high了。写文主要的是内容，但是<em>Markdown</em>的体验真的很不错。网上有各种Markdown的编辑器，各有各的特点，功能基本满足我的需求。</p>
-<p><a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a> 这个在线编辑器功能很强大，用户体验很好,这篇文档就在这上边编写完成的。它提供了和google、dropbox以及github的互操作，对我来说的功能已经溢出了。</p>
-<p>前几天使用的是<a href="http://maxiang.info" target="_blank" rel="external">马克飞象</a> 这款编辑器写的文档，可以和Evernote打通，也非常棒。比较两者，发现各自对Markdown的语法支持有差异。</p>
-<p>使用两者之后的感受，各有各的好处吧。但是这种面向大众使用产品，个人的操作效率肯定不是最高的。比如，我特别想通过StackEdit一键发布博文，保存到GitHub的路径可以自动确定。有种声音，改变它，让它符合自己的操作习惯。</p>
-<p>上面提到的StackEdit编辑器是开源的，如果想增加特化的功能，可以自己修改源码实现。源码地址：<a href="https://github.com/benweet/stackedit" target="_blank" rel="external">https://github.com/benweet/stackedit</a></p>
-<p>从满足自己的需求角度出发，我应该基于<em>StackEdit</em>自己再做二次开发的。可是总有一种想法驱赶我:”你应该自己造个轮子解析Markdown”。<br>这两个事相差的有点远了。有些时候，也不知道自己为什么会这样想。</p>
-<p>应该就是<a href="http://www.zhihu.com/question/22380750" target="_blank" rel="external">我能</a>这个道理吧。</p>
-<h3 id="一点想法">一点想法</h3><p><code>词法解析</code>这块完全没有经验。</p>
-<p>印象中需要使用到<code>树</code>和<code>状态机</code>吧。大学里面没有好好学习数据结构，学了的也还给老师了。所以这块肯定是要重现学习的。状态机倒也还算实践过，但却也没有说能轻松搞定的勇气。</p>
-<p>涉及到<code>字符串编码</code>的问题，这个倒还比较熟悉。却也没有真正研究过，比如在内存解析时使用utf8编码，怎么遍历字符和字符匹配呢？</p>
-<p>总体来说，是零基础开始做了。</p>
-<h3 id="计划">计划</h3><p>这块肯定已经有比较成熟的解析器。应该先借鉴下现有的实现，怎么也得踩下别人的肩膀。另外现在已经可以预见的知识也要准备下：</p>
-<ul>
-<li>树数据结构算法</li>
-<li>状态机</li>
-<li>字符串编码</li>
-<li>Markdown的语法</li>
-</ul>
-<p>最后一句，”善始者实繁，克终者盖寡”。算是激励自己，也为自己找个台阶。</p>
-<blockquote>
-<p><strong>补充：</strong>突然想到自己做事不从需求出发，应该是被人洗脑了，看大神言论看多了。算了，这次认栽了！</p>
-</blockquote>
-
-          
-        
-      </div>
-    
-
-    
-      <div class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/markdown/">
-                #markdown
-              </a>
-            
-          </div>
-        
-
-        
-
-        
-        
-          <div class="post-eof"></div>
-        
-      </div>
-    
-  </div>
-
-
-  
 
           </div>
 
@@ -1413,11 +1424,11 @@ Violets are <span class="built_in">blue</span>.
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">29</span>
+            <span class="site-state-item-count">30</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">

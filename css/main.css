@@ -1168,7 +1168,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1855;
+  background: #ffade3;
 }
 .sidebar-nav {
   margin: 0;
@@ -1956,7 +1956,7 @@ hr {
   background: #f5f5f5;
 }
 .header-inner {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   padding: 40px 0;
 }
 .header-inner:before,
@@ -2096,7 +2096,7 @@ hr {
   display: none;
 }
 .posts-expand .post {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .posts-expand .post:first-child {
   margin-top: 0;

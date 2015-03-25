@@ -122,6 +122,98 @@
           
           
             
+              <a class="post-title-link" href="/2015/03/26/Header-Of-Line-Blocking/#main">
+                Header-Of-Line-Blocking
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2015-03-25
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/03/26/Header-Of-Line-Blocking/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/03/26/Header-Of-Line-Blocking/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <p>在了解HTTP/2的时候看到了这个名词，字面意思是在队列前面的发生了阻塞。</p>
+<p>在维基百科里面了解到了以下情况会出现：</p>
+<ul>
+<li>使用FIFO 输入缓冲队列的交换机，改现象会大大降低交换机的吞吐量</li>
+<li>HTTP pipeline</li>
+</ul>
+<p>两者的共性是相同的，前面有个比较弱的家伙在挡道。</p>
+            <div class="post-more-link text-center">
+              <a class="btn" href="/2015/03/26/Header-Of-Line-Blocking/#more">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/Network/">
+                #Network
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2015/03/23/recommend-gtd/#main">
                 GTD时间管理方法推荐
               </a>
@@ -1037,120 +1129,6 @@
 
 
   
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/#main">
-                定位小米公司网络中下载引擎速度慢问题
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            发表于 2014-10-26
-          
-        </span>
-
-        
-          
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    
-      <div class="post-body">
-
-        
-        
-
-        
-          
-            <p>最近到小米公司出差，目的是保证迅雷加速引擎嵌入Miui v6的稳定版中。</p>
-<p>加速引擎的亮点是高速下载，结果在小米的网络中下载速度反而没有最简单的单连接下载快。具体现象：</p>
-<ul>
-<li>加速引擎：任务开始一段时间后速度可以达到2M/s，过了一段时间速度突然下降。在白天速度可以将到100～200KB/s，晚上没什么人使用的时候高些——1MB/s</li>
-<li>浏览器： 速度很稳定一直保持在2.5M/s，白天晚上都一样</li>
-</ul>
-<p>分析现象猜测有几个原因：</p>
-<ul>
-<li>原始资源非常强，使用多连接反而会降低下载速度</li>
-<li>wifi热点的性能有问题，连接多的时候为各个连接提供的速度总和反而没有单连接给力</li>
-</ul>
-<p>第一点会影响下载速度，但是对下载速度的影响不会那么大。</p>
-<p>在验证第二个点的时候，使用了IDM，这个工具对定位问题的帮助很大。IDM 也是一个下载软件，支持多连接下载，还可以方便的设置下载任务使用的连接数。在夜晚做了几组试验对比：</p>
-<ul>
-<li>连接数为 1， 下载速度平稳一直是 2.3～2.5M/s</li>
-<li>连接数为 2， 开始下载速度是在2M/s以上，但是很快就往下降最终稳定在1M/s左右</li>
-<li>连接数为 4， 现象和连接数为 2 的一样</li>
-<li>连接数为 8,  现象和连接数为 2 的一样</li>
-</ul>
-<p>因为下载引擎最多也就使用10条连接左右，所以没有测试更多的连接数。</p>
-<p>现象不能证明猜测的原因2。仔细观察发现idm在使用多连接下载的时候会在第一条连接获取到文件大小后断开，后面的请求都是分块请求。</p>
-<p>猜测是网络对于带有 range 的http请求做了限制。后面做了一些测试验证了该观点：</p>
-<ul>
-<li>单连接下载情况，一个带range，一个不带range请求，结果带range下了速度是1M/s，不带range的是2.5M/s</li>
-<li>多连接情况，包涵一个不带range请求和三个带range请求的连接，下载速度也能一直保持2.5M/s</li>
-</ul>
-<blockquote>
-<p>总结：在开始猜测原因二的时候，还是有先入为主的毛病。当有人提出异议的时候，只是记住维护自己的观点，好像根本考虑别人的观点。<br>思维方式还是太局限了。</p>
-</blockquote>
-
-          
-        
-      </div>
-    
-
-    
-      <div class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/下载/">
-                #下载
-              </a>
-            
-              <a href="/tags/测试/">
-                #测试
-              </a>
-            
-          </div>
-        
-
-        
-
-        
-        
-          <div class="post-eof"></div>
-        
-      </div>
-    
-  </div>
-
-
-  
 
           </div>
 
@@ -1183,11 +1161,11 @@
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">29</span>
+            <span class="site-state-item-count">30</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">
