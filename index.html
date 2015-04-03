@@ -122,6 +122,100 @@
           
           
             
+              <a class="post-title-link" href="/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/#main">
+                Check Your Code First before Looking to Blame Others
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2015-04-03
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <p><a href="http://programmer.97things.oreilly.com/wiki/index.php/Check_Your_Code_First_before_Looking_to_Blame_Others" target="_blank" rel="external">原文</a></p>
+<p>文章里面描述了两个点——过去遇到过，也总结过，但是没有写出来的。</p>
+<ol>
+<li>最好不要怀疑是编译器或者操作系统出错，检查自己的代码先</li>
+<li>当有人向你反馈你不能复现的bug时，很有可能是用户有什么操作出乎你意料而且用户也没有关注到的，确保同步用户的上下文是关键的</li>
+</ol>
+<p><strong>额外提到的是多线程编程</strong></p>
+<ol>
+<li>多线程引发的错误，是非常棘手的问题</li>
+<li>通常的调试和单元测试都不容易让问题复现</li>
+<li>所以在多线程编程中简单尤为重要（<em>多线程本来会使逻辑的复杂度翻倍</em>）</li>
+</ol>
+<p><strong>一旦排除了那些不容易出错的东西，剩下的将是正真的原因，不管这些原因多么的不可思议</strong>。</p>
+
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/Fix-bug/">
+                #Fix bug
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2015/03/26/Header-Of-Line-Blocking/#main">
                 Header-Of-Line-Blocking
               </a>
@@ -1032,103 +1126,6 @@
 
 
   
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2014/11/02/use-wireshark-capture-net-data-that-cost-by-android-on-mac-osx/#main">
-                在Mac OSX 上抓android手机数据包
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            发表于 2014-11-02
-          
-        </span>
-
-        
-          
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2014/11/02/use-wireshark-capture-net-data-that-cost-by-android-on-mac-osx/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2014/11/02/use-wireshark-capture-net-data-that-cost-by-android-on-mac-osx/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    
-      <div class="post-body">
-
-        
-        
-
-        
-          
-            <p>在android直接使用tcpdump抓包对于开发调试的时候有些不方便。每次抓android的包的时候都会怀念以前做windows开发的简单快捷的抓包方法。碰巧最近发现android的抓包也可以如此的顺畅。</p>
-<p>先介绍下mac os下抓android手机数据包的流程吧：</p>
-<ol>
-<li>确保手机上已经安装了tcpdump，支持busybox</li>
-<li>确保mac上安装了<a href="https://www.wireshark.org/download.html" target="_blank" rel="external">wireshark</a></li>
-<li>运行<code>./adb_wireshark.sh</code>即可完成整个功能了</li>
-</ol>
-<p>在mac上抓android数据包的基本原理是转发，即数据包还是在android上抓取，只是在mac上展示而已。转发的关键是<code>adb forward</code>。</p>
-<p>adb_tcpdump.sh</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/data/<span class="built_in">local</span>/tcpdump <span class="operator">-s</span> <span class="number">0</span> -w - | busybox nc <span class="operator">-l</span> -p <span class="number">11233</span></span><br></pre></td></tr></table></figure>
-<p>该命令会将抓取到的数据发送到 11233 端口。</p>
-<p>adb_wireshark.sh<br><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">adb root	<span class="comment">#获取root权限</span></span><br><span class="line">adb shell &lt; adb_tcpdump.sh &amp; <span class="comment">#在手机上执行</span></span><br><span class="line">Apid=<span class="variable">$!</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">sleep</span> <span class="number">1</span></span><br><span class="line">adb forward tcp:<span class="number">11233</span> tcp:<span class="number">11233</span>	<span class="comment">#将手机11233端口的数据转发到mac的11233端口上</span></span><br><span class="line"><span class="keyword">sleep</span> <span class="number">1</span></span><br><span class="line"></span><br><span class="line">mkfifo /tmp/sharkfin	<span class="comment">#创建一个命名管道</span></span><br><span class="line">wireshark -k -i /tmp/sharkfin &amp; <span class="comment">#运行本地的wireshark，并指定数据来源是在/tmp/sharkfin上</span></span><br><span class="line"></span><br><span class="line">nc <span class="number">127.0</span>.<span class="number">0</span>.<span class="number">1</span> <span class="number">11233</span> &gt; <span class="regexp">/tmp/sharkfin</span> <span class="comment">#将本地11233端口的数据重定向到命名管道上</span></span><br><span class="line"><span class="keyword">kill</span> -<span class="number">9</span> <span class="variable">$Apid</span></span><br></pre></td></tr></table></figure></p>
-
-          
-        
-      </div>
-    
-
-    
-      <div class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/工具/">
-                #工具
-              </a>
-            
-              <a href="/tags/网络/">
-                #网络
-              </a>
-            
-          </div>
-        
-
-        
-
-        
-        
-          <div class="post-eof"></div>
-        
-      </div>
-    
-  </div>
-
-
-  
 
           </div>
 
@@ -1161,11 +1158,11 @@
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">30</span>
+            <span class="site-state-item-count">31</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">

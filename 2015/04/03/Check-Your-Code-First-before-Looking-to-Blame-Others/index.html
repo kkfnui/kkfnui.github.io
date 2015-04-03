@@ -20,9 +20,9 @@
 
 
 
-	<meta name="keywords" content="思考," />
+	<meta name="keywords" content="Fix bug," />
 
-  <title> 2014-11-22-reading // kkfnui's blog </title>
+  <title> Check Your Code First before Looking to Blame Others // kkfnui's blog </title>
 </head>
 
 <body>
@@ -97,7 +97,7 @@
           
           
             
-              2014-11-22-reading
+              Check Your Code First before Looking to Blame Others
             
           
         </h1>
@@ -106,7 +106,7 @@
       <div class="post-meta">
         <span class="post-time">
           
-            发表于 2014-11-22
+            发表于 2015-04-03
           
         </span>
 
@@ -118,8 +118,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2014/11/22/2014-11-22-reading/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2014/11/22/2014-11-22-reading/"></span>
+            <a href="/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/"></span>
             </a>
           </span>
           
@@ -134,57 +134,19 @@
         
 
         
-          <h3 id="阅读">阅读</h3><ul>
-<li><p><a href="http://www.jianshu.com/p/Daxrnq" target="_blank" rel="external">求知瘾者</a></p>
-<p>我是被这个标题吸引的。作者的观点是：</p>
-<blockquote>
+          <p><a href="http://programmer.97things.oreilly.com/wiki/index.php/Check_Your_Code_First_before_Looking_to_Blame_Others" target="_blank" rel="external">原文</a></p>
+<p>文章里面描述了两个点——过去遇到过，也总结过，但是没有写出来的。</p>
 <ol>
-<li>现在求知被大家认同，大家对知识的追求超过了一个度。出现了新的问题——求知瘾者</li>
-<li>知识本是用来解决问题的，但是求知瘾者“忙于”求知，无暇或者逃避解决问题</li>
-<li>作者关于求知瘾者特点的描述感觉太突兀了（能思考、欠全面；假大空、不实际；有知识、不能做出成绩）</li>
-<li>关于为什么会出现求知瘾者第一段落提到了：求知理念的深入人心及优越感作祟。</li>
+<li>最好不要怀疑是编译器或者操作系统出错，检查自己的代码先</li>
+<li>当有人向你反馈你不能复现的bug时，很有可能是用户有什么操作出乎你意料而且用户也没有关注到的，确保同步用户的上下文是关键的</li>
 </ol>
-</blockquote>
-<p> <strong>环境</strong>：知识所能带来的优越感已经深入人心，信息“进口”的渠道多样化更是激发了人们新知识的好奇心。在解惑新知识的同时也拓宽了信息进口的渠道。<br> <strong>个人</strong>：选择太多，目标不清晰。无法评估和量化新的知识，在实现目标上的价值。对于新知识的态度是有备无患，是自己的注意力分散。</p>
-</li>
-<li><p><a href="http://jecvay.com/2014/11/compiler-makes-fast-build/" target="_blank" rel="external">Minecraft应该怎么玩? 编译原理解放生产力!</a></p>
-<p>看标题以为是用某种编程语言玩Minecraft。细看应该是玩Minecraft之后的感想：</p>
-</li>
-</ul>
-<blockquote>
+<p><strong>额外提到的是多线程编程</strong></p>
 <ol>
-<li>开始由编程语言引入，不同语言有各自擅长的领域。</li>
-<li>描述Minecraft构建世界的基本元素，同时描述独自构建不同规模建筑的感觉。同时带入使用汇编编写相应规模的程序的情景。最后引入了软件工程, 模块化开发</li>
-<li>作者认为这还不行，抛出一种观点：使用新语言一个人可以完成搜索引擎、操作系统、物流系统。<ol>
-<li>我的理解现在的语言已经可以达到一个人完成其中的任何一个系统了——模块化开发</li>
-<li>为啥需要那么多人去做商业化的产品——因为什么东西都没有一个完全统一的标准。</li>
-<li>编译是将代码转换成机器能够理解的指令，说是编译技术倒是像人工智能。</li>
+<li>多线程引发的错误，是非常棘手的问题</li>
+<li>通常的调试和单元测试都不容易让问题复现</li>
+<li>所以在多线程编程中简单尤为重要（<em>多线程本来会使逻辑的复杂度翻倍</em>）</li>
 </ol>
-</li>
-</ol>
-</blockquote>
-<ul>
-<li><p><a href="http://www.scalerstalk.com/323-load/" target="_blank" rel="external">明确主线，合理取舍，简单入手，逐步挂载——计划完成不了怎么办系列(3)</a></p>
-<p>还是和想做太多，但结果“一事无成”相关的文章：</p>
-</li>
-</ul>
-<blockquote>
-<ol>
-<li>我们有很多欲望需求，但是很多时候需求是装逼的需求，自己不知道自己正真的需求</li>
-<li>为什么？1. 教育体系的批量生产不注重个性发展；2. 自己依赖于外界的标尺，寻求认同</li>
-<li>但是我们做计划的时候就不是这样了。由于主线的不明确，我们会什么都要想，反正提要求是没有成本的，不管给自己提，或者给别人提。</li>
-<li>还是那句话，想一想明确自己的目标，考量计划是否朝着目标走去</li>
-</ol>
-</blockquote>
-<p> 关于执行</p>
-<blockquote>
-<ol>
-<li>简单入手，做好一件事情之后再增加到计划两件事情。这点可以尝试下，平时确实会碰到这样的问题。颓废了一整子或者工作稍微不那么忙，就想看书做点什么事情，结果什么都来，确实做不好。</li>
-<li>到最后你会发现你的瓶颈不是你的心烦意乱，而是你的身体健康度。只要你有体力，就能开始工作，开始执行计划，而且投入以后就不会轻易掉线。这才是一种理想状态，这也是我在努力追求的。</li>
-<li>执行中干扰一定要抵制。</li>
-</ol>
-</blockquote>
-<p> 关于执行没啥好说的，重在实践。</p>
+<p><strong>一旦排除了那些不容易出错的东西，剩下的将是正真的原因，不管这些原因多么的不可思议</strong>。</p>
 
         
       </div>
@@ -195,8 +157,8 @@
         
           <div class="post-tags">
             
-              <a href="/tags/思考/">
-                #思考
+              <a href="/tags/Fix-bug/">
+                #Fix bug
               </a>
             
           </div>
@@ -206,13 +168,11 @@
           <div class="post-nav">
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2014/12/23/const-in-c-and-cpp/">const 修饰符在c和c++中的区别</a>
-              
             </div>
 
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2014/11/18/hiring-record-for-the-first-time/">第一次招聘总结</a>
+                <a href="/2015/03/26/Header-Of-Line-Blocking/">Header-Of-Line-Blocking</a>
               
             </div>
           </div>
@@ -229,8 +189,8 @@
   
     <div class="comments" id="comments">
       
-        <div class="ds-thread" data-thread-key="2014/11/22/2014-11-22-reading/"
-             data-title="2014-11-22-reading" data-url="http://blog.makerome.com/2014/11/22/2014-11-22-reading/">
+        <div class="ds-thread" data-thread-key="2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/"
+             data-title="Check Your Code First before Looking to Blame Others" data-url="http://blog.makerome.com/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/">
         </div>
 
       
@@ -324,7 +284,7 @@
         <div class="post-toc">
           
           
-            <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#阅读"><span class="nav-number">1.</span> <span class="nav-text">阅读</span></a></li></ol></div>
+            <p class="post-toc-empty">此文章未包含目录</p>
           
         </div>
         <div class="post-toc-indicator-bottom post-toc-indicator"></div>

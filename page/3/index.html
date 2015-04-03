@@ -122,6 +122,164 @@
           
           
             
+              <a class="post-title-link" href="/2013/12/28/mark-down-synatx/#main">
+                markdown synatx
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2013-12-27
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2013/12/28/mark-down-synatx/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2013/12/28/mark-down-synatx/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <h2 id="Phrase_Emphasis">Phrase Emphasis</h2><pre><code><span class="keyword">*</span>italic<span class="keyword">*</span>   <span class="keyword">*</span><span class="keyword">*</span>bold<span class="keyword">*</span><span class="keyword">*</span>
+_italic_   __bold__
+</code></pre><h2 id="Links">Links</h2><p>Inline:</p>
+<pre><code>An [<span class="link_label">example</span>](<span class="link_url">http://url.com/ "Title"</span>)
+</code></pre><p>Reference-style labels (titles are optional):</p>
+<pre><code>An [<span class="link_label">example</span>][<span class="link_reference">id</span>]. Then, anywhere
+else in the doc, define the link:
+
+  [id]: http://example.com/  "Title"
+</code></pre><h2 id="Images">Images</h2><p>Inline (titles are optional):</p>
+<pre><code>![<span class="link_label">alt text</span>](<span class="link_url">/path/img.jpg "Title"</span>)
+</code></pre><p>Reference-style:</p>
+<pre><code>![<span class="link_label">alt text</span>][<span class="link_reference">id</span>]
+
+[<span class="link_reference">id</span>]:<span class="link_url"> /url/to/img.jpg "Title"</span>
+</code></pre><h2 id="Headers">Headers</h2><p>Setext-style:</p>
+<pre><code><span class="header">Header 1
+========</span>
+
+<span class="header">Header 2
+--------</span>
+</code></pre><p>atx-style (closing #’s are optional):</p>
+<pre><code><span class="preprocessor"># Header 1 #</span>
+
+<span class="preprocessor">## Header 2 ##</span>
+
+<span class="preprocessor">###### Header 6</span>
+</code></pre><h2 id="Lists">Lists</h2><p>Ordered, without paragraphs:</p>
+<pre><code><span class="bullet">1.  </span>Foo
+<span class="bullet">2.  </span>Bar
+</code></pre><p>Unordered, with paragraphs:</p>
+<pre><code>*   A <span class="type">list</span> <span class="property">item</span>.
+
+    With multiple <span class="property">paragraphs</span>.
+
+*   Bar
+</code></pre><p>You can nest them:</p>
+<pre><code><span class="keyword">*</span>   Abacus
+    <span class="keyword">*</span> answer
+<span class="keyword">*</span>   Bubbles
+    1.  bunk
+    2.  bupkis
+        <span class="keyword">*</span> BELITTLER
+    3. burper
+<span class="keyword">*</span>   Cunning
+</code></pre><h2 id="Blockquotes">Blockquotes</h2><pre><code><span class="blockquote">&gt; Email-style angle brackets</span>
+<span class="blockquote">&gt; are used for blockquotes.</span>
+
+<span class="blockquote">&gt; &gt; And, they can be nested.</span>
+
+<span class="blockquote">&gt; #### Headers in blockquotes</span>
+<span class="blockquote">&gt; 
+&gt; * You can quote a list.</span>
+<span class="blockquote">&gt; * Etc.</span>
+</code></pre><h2 id="Code_Spans">Code Spans</h2><pre><code><span class="escape">`&lt;</span>code&gt;<span class="escape">` </span>spans are delimited
+by backticks.
+
+You can include literal backticks
+like <span class="escape">``</span> <span class="escape">`t</span>his<span class="escape">` </span><span class="escape">``</span>.
+</code></pre><h2 id="Preformatted_Code_Blocks">Preformatted Code Blocks</h2><p>Indent every line of a code block by at least 4 spaces or 1 tab.</p>
+<pre><code>This is <span class="tag">a</span> <span class="attribute">normal</span> paragraph.
+
+    This is <span class="tag">a</span> preformatted
+    <span class="tag">code</span> block.
+</code></pre><h2 id="Horizontal_Rules">Horizontal Rules</h2><p>Three or more dashes or asterisks:</p>
+<pre><code><span class="horizontal_rule">---</span>
+
+<span class="bullet">* </span><span class="bullet">* *</span>
+
+<span class="bullet">- </span>- - - 
+</code></pre><h2 id="Manual_Line_Breaks">Manual Line Breaks</h2><p>End a line with two or more spaces:</p>
+<pre><code>Roses are <span class="built_in">red</span>,   
+Violets are <span class="built_in">blue</span>.
+</code></pre>
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/markdown/">
+                #markdown
+              </a>
+            
+              <a href="/tags/synatx/">
+                #synatx
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2013/12/28/thinking-about-md/#main">
                 解析markdown的想法
               </a>
@@ -449,11 +607,11 @@
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">30</span>
+            <span class="site-state-item-count">31</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">

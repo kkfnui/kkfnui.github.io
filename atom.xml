@@ -4,7 +4,7 @@
   <subtitle><![CDATA[learn & share]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.makerome.com/"/>
-  <updated>2015-03-25T16:40:27.000Z</updated>
+  <updated>2015-04-03T10:13:11.000Z</updated>
   <id>http://blog.makerome.com/</id>
   
   <author>
@@ -13,6 +13,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Check Your Code First before Looking to Blame Others]]></title>
+    <link href="http://blog.makerome.com/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/"/>
+    <id>http://blog.makerome.com/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/</id>
+    <published>2015-04-03T10:00:34.000Z</published>
+    <updated>2015-04-03T10:13:11.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://programmer.97things.oreilly.com/wiki/index.php/Check_Your_Code_First_before_Looking_to_Blame_Others" target="_blank" rel="external">原文</a></p>
+<p>文章里面描述了两个点——过去遇到过，也总结过，但是没有写出来的。</p>
+<ol>
+<li>最好不要怀疑是编译器或者操作系统出错，检查自己的代码先</li>
+<li>当有人向你反馈你不能复现的bug时，很有可能是用户有什么操作出乎你意料而且用户也没有关注到的，确保同步用户的上下文是关键的</li>
+</ol>
+<p><strong>额外提到的是多线程编程</strong></p>
+<ol>
+<li>多线程引发的错误，是非常棘手的问题</li>
+<li>通常的调试和单元测试都不容易让问题复现</li>
+<li>所以在多线程编程中简单尤为重要（<em>多线程本来会使逻辑的复杂度翻倍</em>）</li>
+</ol>
+<p><strong>一旦排除了那些不容易出错的东西，剩下的将是正真的原因，不管这些原因多么的不可思议</strong>。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://programmer.97things.oreilly.com/wiki/index.php/Check_Your_Code_First_before_Looking_to_Blame_Others" target="_blank" rel=]]>
+    </summary>
+    
+      <category term="Fix bug" scheme="http://blog.makerome.com/tags/Fix-bug/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Header-Of-Line-Blocking]]></title>
@@ -767,63 +795,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[工作中的文档]]></title>
-    <link href="http://blog.makerome.com/2014/01/12/doc-in-working/"/>
-    <id>http://blog.makerome.com/2014/01/12/doc-in-working/</id>
-    <published>2014-01-11T16:00:00.000Z</published>
-    <updated>2015-03-23T15:04:45.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
-<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
-<p>工作中文档又是信息的适配器。文档不只是给写的人看的，它还需要为其他人“服务”，有传播信息的作用。读者的拥有的背景知识又不尽相同，所以文档并不只是简单的纪实。需要作者对信息进行抽象、加工以及组织。</p>
-<h3 id="文档的好处">文档的好处</h3><p>为了更好更快的完成工作，我们需要编写一些文档。目前工作中文档带来的好处：</p>
-<ul>
-<li><p>节省交流时间</p>
-<p>  在实现具体需求的时候，开发和测试之间需要信息同步。如果不通过文档，而是口头交流，会存在两个问题：</p>
-<ol>
-<li>具体细节多的时候，口头交流的时候可能会遗漏信息</li>
-<li><p>存在反复交流的可能，比如中间有人忘了部分信息</p>
-<p>使用文档记录信息，开发过程中的信息都可以记录下，之后如果有人忘了还可以看文档，而不需要重复交流。</p>
-</li>
-</ol>
-</li>
-<li><p>文档更抽象，有利于整理思路</p>
-<p>  这点对开发人员来说是非常好的。埋头写代码时，需要关注的细节比较多，有些时候返回会在主要的逻辑上出些错误。如果能再通过一个文档整理逻辑，就会发现实现中的一些问题。(<em>这里说的是文档时实现后的文档了</em>) </p>
-</li>
-</ul>
-<h3 id="工作中常用的文档">工作中常用的文档</h3><ul>
-<li><p><strong>需求文档</strong></p>
-<p>  需求文档重要的功能是说明要做什么。我所在项目中，过去的多数需求没有文档。没有需求文档问题也不大，因为需求已经是非常细化的，有些时候都可以怀疑它不是需求而是解决方案。不过我觉得以后最好加上，记录我们做过哪些需求。(<em>一个软件需求的积累是有价值的</em>)</p>
-<p> 需求文档大概要哪些信息：标题、背景、说明、完成标准。</p>
-</li>
-<li><p><strong>设计文档 &amp; 详细设计文档</strong></p>
-<p>  这两种文档的界限不是很明确，受需求的复杂度的影响比较大。需求很简单时，设计文档也就是详细设计文档。需求复杂时，两者就有不同的分工了。设计文档偏向于解决问题的<strong>方向</strong>，而详细设计文档偏向于解决问题的<strong>过程</strong>。在开发后面需要进行的测试是更关注过程，所以详细设计文档通常是和测试交流的重点。</p>
-</li>
-<li><p><strong>测试用例</strong></p>
-<p> 测试先对解决问题的过程进行分析，记录其中关键的点。并且增加相应的测试条件与预期结果。可以将思考和行动独立成两个步骤。</p>
-</li>
-<li><p><strong>“产品”使用文档</strong></p>
-<p> 这里指的产品是泛指，它可以是一个软件，也可以是软件中的一个组件。这是我做开发平台认识比较深刻的一个东西。基于产品的在开发非常依赖于使用文档。这里的文档就不单单是文档了，可能还需要包括使用示例。</p>
-</li>
-</ul>
-<p>我非常愿意将这些文档划分成两类：<strong>需求相关文档</strong>和<strong>基础文档</strong>。基础文档和需求文档也并非完全独立的，比如一个需求完全就可以使增加一个接口。这种情况下同一份文档既可以看作是需求相关文档，可以看作是基础文档。</p>
-<h3 id="基础文档">基础文档</h3><p>上面提到的前三种都是需求相关的文档，说的比较具体了。最后一个是产品基础文档，看着觉得数量比较少，其实也可能有蛮多文档的。基础文档是一个嵌套形式的，比如一个产品有A B C D四个模块，最后应该就有5份基础文档了。</p>
-<p>现在，项目中需求相关文档都还不错，流程决定了这个文档必不可少。但是基础文档就受大家的重视了，就像公司一样“看重业务，而不注重基础技术”。</p>
-<p>基础文档一般是接口文档或者是协议文档，以及领域中定理。</p>
-<p>我们模块的接口文档是没有的，同时接口注释也没有。别说注释可能会和代码表达的意思不同，造成后人的误解。接口的含义如果经常变动那问题才更大。<strong>有份好的接口文档，对于使用者来说帮助很大</strong>。但是怎么写我也没有太多建议，想到是个好的编写方式————<strong>将内容写在程序中，然后通过工具生成文档</strong>。</p>
-<p>协议文档还是蛮全的。这里可以总结下以前的工作现象————<strong>不与分工不同的人交流时，我们是就不写文档</strong>。</p>
-<p>领域中的定理，这是软件构件的基础。这个必须可以有文档，不知道对刚接触该领域的人帮助多大！</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
-<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
-<p>工作中文档又是信息的]]>
-    </summary>
-    
-      <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[使用redmine进行文档的管理]]></title>
     <link href="http://blog.makerome.com/2014/01/12/manage-doc-by-redmine/"/>
     <id>http://blog.makerome.com/2014/01/12/manage-doc-by-redmine/</id>
@@ -889,6 +860,63 @@
       <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
     
       <category term="项目" scheme="http://blog.makerome.com/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[工作中的文档]]></title>
+    <link href="http://blog.makerome.com/2014/01/12/doc-in-working/"/>
+    <id>http://blog.makerome.com/2014/01/12/doc-in-working/</id>
+    <published>2014-01-11T16:00:00.000Z</published>
+    <updated>2015-03-23T15:04:45.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
+<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
+<p>工作中文档又是信息的适配器。文档不只是给写的人看的，它还需要为其他人“服务”，有传播信息的作用。读者的拥有的背景知识又不尽相同，所以文档并不只是简单的纪实。需要作者对信息进行抽象、加工以及组织。</p>
+<h3 id="文档的好处">文档的好处</h3><p>为了更好更快的完成工作，我们需要编写一些文档。目前工作中文档带来的好处：</p>
+<ul>
+<li><p>节省交流时间</p>
+<p>  在实现具体需求的时候，开发和测试之间需要信息同步。如果不通过文档，而是口头交流，会存在两个问题：</p>
+<ol>
+<li>具体细节多的时候，口头交流的时候可能会遗漏信息</li>
+<li><p>存在反复交流的可能，比如中间有人忘了部分信息</p>
+<p>使用文档记录信息，开发过程中的信息都可以记录下，之后如果有人忘了还可以看文档，而不需要重复交流。</p>
+</li>
+</ol>
+</li>
+<li><p>文档更抽象，有利于整理思路</p>
+<p>  这点对开发人员来说是非常好的。埋头写代码时，需要关注的细节比较多，有些时候返回会在主要的逻辑上出些错误。如果能再通过一个文档整理逻辑，就会发现实现中的一些问题。(<em>这里说的是文档时实现后的文档了</em>) </p>
+</li>
+</ul>
+<h3 id="工作中常用的文档">工作中常用的文档</h3><ul>
+<li><p><strong>需求文档</strong></p>
+<p>  需求文档重要的功能是说明要做什么。我所在项目中，过去的多数需求没有文档。没有需求文档问题也不大，因为需求已经是非常细化的，有些时候都可以怀疑它不是需求而是解决方案。不过我觉得以后最好加上，记录我们做过哪些需求。(<em>一个软件需求的积累是有价值的</em>)</p>
+<p> 需求文档大概要哪些信息：标题、背景、说明、完成标准。</p>
+</li>
+<li><p><strong>设计文档 &amp; 详细设计文档</strong></p>
+<p>  这两种文档的界限不是很明确，受需求的复杂度的影响比较大。需求很简单时，设计文档也就是详细设计文档。需求复杂时，两者就有不同的分工了。设计文档偏向于解决问题的<strong>方向</strong>，而详细设计文档偏向于解决问题的<strong>过程</strong>。在开发后面需要进行的测试是更关注过程，所以详细设计文档通常是和测试交流的重点。</p>
+</li>
+<li><p><strong>测试用例</strong></p>
+<p> 测试先对解决问题的过程进行分析，记录其中关键的点。并且增加相应的测试条件与预期结果。可以将思考和行动独立成两个步骤。</p>
+</li>
+<li><p><strong>“产品”使用文档</strong></p>
+<p> 这里指的产品是泛指，它可以是一个软件，也可以是软件中的一个组件。这是我做开发平台认识比较深刻的一个东西。基于产品的在开发非常依赖于使用文档。这里的文档就不单单是文档了，可能还需要包括使用示例。</p>
+</li>
+</ul>
+<p>我非常愿意将这些文档划分成两类：<strong>需求相关文档</strong>和<strong>基础文档</strong>。基础文档和需求文档也并非完全独立的，比如一个需求完全就可以使增加一个接口。这种情况下同一份文档既可以看作是需求相关文档，可以看作是基础文档。</p>
+<h3 id="基础文档">基础文档</h3><p>上面提到的前三种都是需求相关的文档，说的比较具体了。最后一个是产品基础文档，看着觉得数量比较少，其实也可能有蛮多文档的。基础文档是一个嵌套形式的，比如一个产品有A B C D四个模块，最后应该就有5份基础文档了。</p>
+<p>现在，项目中需求相关文档都还不错，流程决定了这个文档必不可少。但是基础文档就受大家的重视了，就像公司一样“看重业务，而不注重基础技术”。</p>
+<p>基础文档一般是接口文档或者是协议文档，以及领域中定理。</p>
+<p>我们模块的接口文档是没有的，同时接口注释也没有。别说注释可能会和代码表达的意思不同，造成后人的误解。接口的含义如果经常变动那问题才更大。<strong>有份好的接口文档，对于使用者来说帮助很大</strong>。但是怎么写我也没有太多建议，想到是个好的编写方式————<strong>将内容写在程序中，然后通过工具生成文档</strong>。</p>
+<p>协议文档还是蛮全的。这里可以总结下以前的工作现象————<strong>不与分工不同的人交流时，我们是就不写文档</strong>。</p>
+<p>领域中的定理，这是软件构件的基础。这个必须可以有文档，不知道对刚接触该领域的人帮助多大！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="瞎扯(可略过)">瞎扯(<em>可略过</em>)</h3><p>文档是记录信息的载体。具有持久的特性，读者不用担心文档会消失，可以随时查看。</p>
+<p>人脑的记忆是有限的，所以我们可以借由文档来帮助我们记录那些重要的信息。</p>
+<p>工作中文档又是信息的]]>
+    </summary>
+    
+      <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -980,96 +1008,6 @@
       <category term="svn" scheme="http://blog.makerome.com/tags/svn/"/>
     
       <category term="流程" scheme="http://blog.makerome.com/tags/%E6%B5%81%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[markdown synatx]]></title>
-    <link href="http://blog.makerome.com/2013/12/28/mark-down-synatx/"/>
-    <id>http://blog.makerome.com/2013/12/28/mark-down-synatx/</id>
-    <published>2013-12-27T16:00:00.000Z</published>
-    <updated>2015-03-23T15:04:45.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Phrase_Emphasis">Phrase Emphasis</h2><pre><code><span class="keyword">*</span>italic<span class="keyword">*</span>   <span class="keyword">*</span><span class="keyword">*</span>bold<span class="keyword">*</span><span class="keyword">*</span>
-_italic_   __bold__
-</code></pre><h2 id="Links">Links</h2><p>Inline:</p>
-<pre><code>An [<span class="link_label">example</span>](<span class="link_url">http://url.com/ "Title"</span>)
-</code></pre><p>Reference-style labels (titles are optional):</p>
-<pre><code>An [<span class="link_label">example</span>][<span class="link_reference">id</span>]. Then, anywhere
-else in the doc, define the link:
-
-  [id]: http://example.com/  "Title"
-</code></pre><h2 id="Images">Images</h2><p>Inline (titles are optional):</p>
-<pre><code>![<span class="link_label">alt text</span>](<span class="link_url">/path/img.jpg "Title"</span>)
-</code></pre><p>Reference-style:</p>
-<pre><code>![<span class="link_label">alt text</span>][<span class="link_reference">id</span>]
-
-[<span class="link_reference">id</span>]:<span class="link_url"> /url/to/img.jpg "Title"</span>
-</code></pre><h2 id="Headers">Headers</h2><p>Setext-style:</p>
-<pre><code><span class="header">Header 1
-========</span>
-
-<span class="header">Header 2
---------</span>
-</code></pre><p>atx-style (closing #’s are optional):</p>
-<pre><code><span class="preprocessor"># Header 1 #</span>
-
-<span class="preprocessor">## Header 2 ##</span>
-
-<span class="preprocessor">###### Header 6</span>
-</code></pre><h2 id="Lists">Lists</h2><p>Ordered, without paragraphs:</p>
-<pre><code><span class="bullet">1.  </span>Foo
-<span class="bullet">2.  </span>Bar
-</code></pre><p>Unordered, with paragraphs:</p>
-<pre><code>*   A <span class="type">list</span> <span class="property">item</span>.
-
-    With multiple <span class="property">paragraphs</span>.
-
-*   Bar
-</code></pre><p>You can nest them:</p>
-<pre><code><span class="keyword">*</span>   Abacus
-    <span class="keyword">*</span> answer
-<span class="keyword">*</span>   Bubbles
-    1.  bunk
-    2.  bupkis
-        <span class="keyword">*</span> BELITTLER
-    3. burper
-<span class="keyword">*</span>   Cunning
-</code></pre><h2 id="Blockquotes">Blockquotes</h2><pre><code><span class="blockquote">&gt; Email-style angle brackets</span>
-<span class="blockquote">&gt; are used for blockquotes.</span>
-
-<span class="blockquote">&gt; &gt; And, they can be nested.</span>
-
-<span class="blockquote">&gt; #### Headers in blockquotes</span>
-<span class="blockquote">&gt; 
-&gt; * You can quote a list.</span>
-<span class="blockquote">&gt; * Etc.</span>
-</code></pre><h2 id="Code_Spans">Code Spans</h2><pre><code><span class="escape">`&lt;</span>code&gt;<span class="escape">` </span>spans are delimited
-by backticks.
-
-You can include literal backticks
-like <span class="escape">``</span> <span class="escape">`t</span>his<span class="escape">` </span><span class="escape">``</span>.
-</code></pre><h2 id="Preformatted_Code_Blocks">Preformatted Code Blocks</h2><p>Indent every line of a code block by at least 4 spaces or 1 tab.</p>
-<pre><code>This is <span class="tag">a</span> <span class="attribute">normal</span> paragraph.
-
-    This is <span class="tag">a</span> preformatted
-    <span class="tag">code</span> block.
-</code></pre><h2 id="Horizontal_Rules">Horizontal Rules</h2><p>Three or more dashes or asterisks:</p>
-<pre><code><span class="horizontal_rule">---</span>
-
-<span class="bullet">* </span><span class="bullet">* *</span>
-
-<span class="bullet">- </span>- - - 
-</code></pre><h2 id="Manual_Line_Breaks">Manual Line Breaks</h2><p>End a line with two or more spaces:</p>
-<pre><code>Roses are <span class="built_in">red</span>,   
-Violets are <span class="built_in">blue</span>.
-</code></pre>]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="Phrase_Emphasis">Phrase Emphasis</h2><pre><code><span class="keyword">*</span>italic<span class="keyword">*</span>   <span class="ke]]>
-    </summary>
-    
-      <category term="markdown" scheme="http://blog.makerome.com/tags/markdown/"/>
-    
-      <category term="synatx" scheme="http://blog.makerome.com/tags/synatx/"/>
     
   </entry>
   
