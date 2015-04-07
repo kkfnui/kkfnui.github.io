@@ -122,6 +122,98 @@
           
           
             
+              <a class="post-title-link" href="/2015/04/07/communicate-with-trap/#main">
+                主动沟通或者设计陷阱
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2015-04-07
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/04/07/communicate-with-trap/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/07/communicate-with-trap/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <p>今天上午帮妹子重装系统。中途下了几个版本的系统没有用，所以一直在下载东西。<br>中午的时候，一个室友回来了。我怕自己开着迅雷抢了他的带宽，就想先和他通下气。</p>
+<p>我： 你现在用网络吗？<br>室友： 用啊！(<em>莫名奇妙的感觉</em>)<br>我： 我在重装系统，会下载东西。对网络会有影响。<br>室友：是网络有点延迟<br>我： 会不会影响你上网啊(<em>说到这里我自己也很尴尬了</em>)<br>室友： 不会，影响不大(<em>室友还是很好人</em>)</p>
+<p>这段交流有两个地方有问题：</p>
+<ol>
+<li>以问句开头，会让人觉得唐突或者没有安全感</li>
+<li>不能很清晰的表示出内心的诉求——我急于使用网络下载东西，希望室友能够理解，如果不能接收我可以限速。</li>
+</ol>
+<blockquote>
+<p>《沟通的艺术》里面，对这样的行为有做描述——策略和自发。<br>策略是将真正的动机隐藏起来。本质是不诚实以及取巧的处理方式。及时策略性沟通的动机是正确的，当身处诡计重的受害者发现自己被人蒙蔽的时候，他任会觉得被冒犯并且认为自己是幼稚而容易受骗的人。<br>自发与策略形成对比，是指单纯地对别人城市而不是操纵他们。自发性沟通不一定要在想到什么事情的时候马上表达出来，而是在细心的思考后真实地表达内心的想法，最重要的还是诚实。</p>
+</blockquote>
+<p><strong>策略</strong>: 你星期五下班后要做什么？<br><strong>自发</strong>：我星期五下班后要搬钢琴，你可以帮我吗？</p>
+
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/沟通/">
+                #沟通
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/#main">
                 Check Your Code First before Looking to Blame Others
               </a>
@@ -1017,115 +1109,6 @@
 
 
   
-    
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2014/11/04/code-review-on-work/#main">
-                review 优化100%卡住需求
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          
-            发表于 2014-11-03
-          
-        </span>
-
-        
-          
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2014/11/04/code-review-on-work/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2014/11/04/code-review-on-work/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    
-      <div class="post-body">
-
-        
-        
-
-        
-          
-            <p>今天在发布的需要带上某个需求。由于测试那边没有测试完全，再加上上层应用还未及时更新，为了保险这里需要review代码。</p>
-<p>这里已经有几个问题了:</p>
-<ul>
-<li>需求有点紧</li>
-<li>按照我之前说的流程，代码review是同提测一起的(<em>可能之前review过但没有看出问题</em>)</li>
-<li>看板上更新不规范，之前一直有关心这个需求，但是没有看出可以是否可以review，在哪个分支review(<em>没有直接贴出svn地址，出差远程操作电脑很费劲</em>)</li>
-<li>春风之前有提示我review代码，当时我也没有关注是哪个分支，review了主干上的代码修改——交流时没有明确哪个需求</li>
-</ul>
-<h3 id="review发现的问题">review发现的问题</h3><p>对原来的一个逻辑理解有问题。原来在创建任务的时候，有按照本地存储路径对任务进行去重。改动之后不能第一时间获取到存储路径，就使用url对任务进行去重。</p>
-<p>不理解逻辑出现这样的问题属于正常的情况。问题出在，提测时没有意识到这是一个改动，导致没有测试相关逻辑。</p>
-<h3 id="review的问题">review的问题</h3><p>对我自己来说review存在几个问题：</p>
-<ol>
-<li>review一发现问题就容易马上兴奋起来，不太能集中注意力</li>
-<li>也是由于这个问题，在我提出第一个问题后，继续review出问题后会打断开发者正在进行的fix工作</li>
-<li>review工作和测试一样，有时就会像打乒乓球，时间被切割开来</li>
-</ol>
-<h3 id="review的时机">review的时机</h3><ul>
-<li>对于整体方案负责人要从一开始就跟进，开发人员制定方案，方案需要review（<em>也称作过方案</em>）</li>
-<li>在需求提测的时候需要同步review代码</li>
-</ul>
-
-          
-        
-      </div>
-    
-
-    
-      <div class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/review/">
-                #review
-              </a>
-            
-              <a href="/tags/工作/">
-                #工作
-              </a>
-            
-              <a href="/tags/总结/">
-                #总结
-              </a>
-            
-          </div>
-        
-
-        
-
-        
-        
-          <div class="post-eof"></div>
-        
-      </div>
-    
-  </div>
-
-
-  
 
           </div>
 
@@ -1158,11 +1141,11 @@
       <p class="site-description motion-element">留下评论，证明你曾经思考过</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-count">25</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">31</span>
+            <span class="site-state-item-count">32</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">

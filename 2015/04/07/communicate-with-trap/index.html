@@ -20,9 +20,9 @@
 
 
 
-	<meta name="keywords" content="多线程," />
+	<meta name="keywords" content="沟通," />
 
-  <title> pthread_cond_signal和SetEvent的差异 // kkfnui's blog </title>
+  <title> 主动沟通或者设计陷阱 // kkfnui's blog </title>
 </head>
 
 <body>
@@ -97,7 +97,7 @@
           
           
             
-              pthread_cond_signal和SetEvent的差异
+              主动沟通或者设计陷阱
             
           
         </h1>
@@ -106,7 +106,7 @@
       <div class="post-meta">
         <span class="post-time">
           
-            发表于 2014-06-09
+            发表于 2015-04-07
           
         </span>
 
@@ -118,8 +118,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2014/06/09/syn-lock-on-different-platform/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2014/06/09/syn-lock-on-different-platform/"></span>
+            <a href="/2015/04/07/communicate-with-trap/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/07/communicate-with-trap/"></span>
             </a>
           </span>
           
@@ -134,18 +134,17 @@
         
 
         
-          <p>接着上个礼拜的开发。同事调用我的库之后，发现会出现调用接口卡住的问题。</p>
-<p>其根本原因是对pthread_cond_signal的使用存在误解。以为和windows下的SetEvent一样使用。错误的代码：</p>
-<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//接口线程</span></span><br><span class="line"><span class="literal">void</span> SendCommand(Command <span class="subst">*</span>pCommand)</span><br><span class="line">&#123;</span><br><span class="line">    &#123;</span><br><span class="line">        Lock(commandList);</span><br><span class="line">        commandList<span class="built_in">.</span>push_back(pCommand);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#123;</span><br><span class="line">        Lock(pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">        pthread_cond_signal(pCommand<span class="subst">-&gt;</span>cond, pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 主线程</span></span><br><span class="line"><span class="literal">void</span> HandleCommand(Command <span class="subst">*</span>pCommand)</span><br><span class="line">&#123;</span><br><span class="line">    pCommand<span class="subst">-&gt;</span>Execute();</span><br><span class="line">    &#123;</span><br><span class="line">        Lock(pCommand<span class="subst">-&gt;</span>lock);</span><br><span class="line">        pthread_cond_signal(pCommand<span class="subst">-&gt;</span>cond);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>因为命令列表的锁和命令的锁是独立的。这样会出现主线程先获取到命令并执行<code>pthread_cond_signal</code>之后，才执行接口线程的代码。最终，<code>pCommand-&gt;cond</code>就不能激活了。</p>
-<p><code>pthread_cond_signal</code>和windows下的<code>SetEvent</code>有差异，在实现的时候就凭这对<code>SetEvent</code>的理解使用了<code>pthread_cond_signal</code>。<br>具体差异分析，参考<a href="http://blog.csdn.net/absurd/article/details/1402433" target="_blank" rel="external">小心pthread_cond_signal和SetEvent之间的差异</a></p>
-<blockquote>
-<p>从博主的文章那里看到了两个资料：</p>
+          <p>今天上午帮妹子重装系统。中途下了几个版本的系统没有用，所以一直在下载东西。<br>中午的时候，一个室友回来了。我怕自己开着迅雷抢了他的带宽，就想先和他通下气。</p>
+<p>我： 你现在用网络吗？<br>室友： 用啊！(<em>莫名奇妙的感觉</em>)<br>我： 我在重装系统，会下载东西。对网络会有影响。<br>室友：是网络有点延迟<br>我： 会不会影响你上网啊(<em>说到这里我自己也很尴尬了</em>)<br>室友： 不会，影响不大(<em>室友还是很好人</em>)</p>
+<p>这段交流有两个地方有问题：</p>
 <ol>
-<li><a href="http://reactos.com/zh-hans" target="_blank" rel="external">reactos</a>。到目前为止官网没有提供最新版本对应的源代码（<em>找了好久才反应过来</em>）</li>
-<li>glibc的源代码</li>
+<li>以问句开头，会让人觉得唐突或者没有安全感</li>
+<li>不能很清晰的表示出内心的诉求——我急于使用网络下载东西，希望室友能够理解，如果不能接收我可以限速。</li>
 </ol>
+<blockquote>
+<p>《沟通的艺术》里面，对这样的行为有做描述——策略和自发。<br>策略是将真正的动机隐藏起来。本质是不诚实以及取巧的处理方式。及时策略性沟通的动机是正确的，当身处诡计重的受害者发现自己被人蒙蔽的时候，他任会觉得被冒犯并且认为自己是幼稚而容易受骗的人。<br>自发与策略形成对比，是指单纯地对别人城市而不是操纵他们。自发性沟通不一定要在想到什么事情的时候马上表达出来，而是在细心的思考后真实地表达内心的想法，最重要的还是诚实。</p>
 </blockquote>
+<p><strong>策略</strong>: 你星期五下班后要做什么？<br><strong>自发</strong>：我星期五下班后要搬钢琴，你可以帮我吗？</p>
 
         
       </div>
@@ -156,8 +155,8 @@
         
           <div class="post-tags">
             
-              <a href="/tags/多线程/">
-                #多线程
+              <a href="/tags/沟通/">
+                #沟通
               </a>
             
           </div>
@@ -167,13 +166,11 @@
           <div class="post-nav">
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2014/10/26/discover_thunder_skd_low_speed_problem_in_special_network/">定位小米公司网络中下载引擎速度慢问题</a>
-              
             </div>
 
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2014/06/02/about-sdk-interface/">SDK接口胡言乱语</a>
+                <a href="/2015/04/03/Check-Your-Code-First-before-Looking-to-Blame-Others/">Check Your Code First before Looking to Blame Others</a>
               
             </div>
           </div>
@@ -190,8 +187,8 @@
   
     <div class="comments" id="comments">
       
-        <div class="ds-thread" data-thread-key="2014/06/09/syn-lock-on-different-platform/"
-             data-title="pthread_cond_signal和SetEvent的差异" data-url="http://blog.makerome.com/2014/06/09/syn-lock-on-different-platform/">
+        <div class="ds-thread" data-thread-key="2015/04/07/communicate-with-trap/"
+             data-title="主动沟通或者设计陷阱" data-url="http://blog.makerome.com/2015/04/07/communicate-with-trap/">
         </div>
 
       

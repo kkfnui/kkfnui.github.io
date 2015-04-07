@@ -4,7 +4,7 @@
   <subtitle><![CDATA[learn & share]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.makerome.com/"/>
-  <updated>2015-04-03T10:13:11.000Z</updated>
+  <updated>2015-04-07T16:12:00.000Z</updated>
   <id>http://blog.makerome.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[主动沟通或者设计陷阱]]></title>
+    <link href="http://blog.makerome.com/2015/04/07/communicate-with-trap/"/>
+    <id>http://blog.makerome.com/2015/04/07/communicate-with-trap/</id>
+    <published>2015-04-07T15:48:27.000Z</published>
+    <updated>2015-04-07T16:12:00.000Z</updated>
+    <content type="html"><![CDATA[<p>今天上午帮妹子重装系统。中途下了几个版本的系统没有用，所以一直在下载东西。<br>中午的时候，一个室友回来了。我怕自己开着迅雷抢了他的带宽，就想先和他通下气。</p>
+<p>我： 你现在用网络吗？<br>室友： 用啊！(<em>莫名奇妙的感觉</em>)<br>我： 我在重装系统，会下载东西。对网络会有影响。<br>室友：是网络有点延迟<br>我： 会不会影响你上网啊(<em>说到这里我自己也很尴尬了</em>)<br>室友： 不会，影响不大(<em>室友还是很好人</em>)</p>
+<p>这段交流有两个地方有问题：</p>
+<ol>
+<li>以问句开头，会让人觉得唐突或者没有安全感</li>
+<li>不能很清晰的表示出内心的诉求——我急于使用网络下载东西，希望室友能够理解，如果不能接收我可以限速。</li>
+</ol>
+<blockquote>
+<p>《沟通的艺术》里面，对这样的行为有做描述——策略和自发。<br>策略是将真正的动机隐藏起来。本质是不诚实以及取巧的处理方式。及时策略性沟通的动机是正确的，当身处诡计重的受害者发现自己被人蒙蔽的时候，他任会觉得被冒犯并且认为自己是幼稚而容易受骗的人。<br>自发与策略形成对比，是指单纯地对别人城市而不是操纵他们。自发性沟通不一定要在想到什么事情的时候马上表达出来，而是在细心的思考后真实地表达内心的想法，最重要的还是诚实。</p>
+</blockquote>
+<p><strong>策略</strong>: 你星期五下班后要做什么？<br><strong>自发</strong>：我星期五下班后要搬钢琴，你可以帮我吗？</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天上午帮妹子重装系统。中途下了几个版本的系统没有用，所以一直在下载东西。<br>中午的时候，一个室友回来了。我怕自己开着迅雷抢了他的带宽，就想先和他通下气。</p>
+<p>我： 你现在用网络吗？<br>室友： 用啊！(<em>莫名奇妙的感觉</em>)<br>我： 我在重]]>
+    </summary>
+    
+      <category term="沟通" scheme="http://blog.makerome.com/tags/%E6%B2%9F%E9%80%9A/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Check Your Code First before Looking to Blame Others]]></title>
@@ -917,97 +944,6 @@
     </summary>
     
       <category term="文档" scheme="http://blog.makerome.com/tags/%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[svn分支开发流程说明]]></title>
-    <link href="http://blog.makerome.com/2014/01/04/branch-develop-flow-base-on-svn/"/>
-    <id>http://blog.makerome.com/2014/01/04/branch-develop-flow-base-on-svn/</id>
-    <published>2014-01-03T16:00:00.000Z</published>
-    <updated>2015-03-23T15:04:45.000Z</updated>
-    <content type="html"><![CDATA[<p>工作中我们使用svn来管理源码。之前基于svn来开发需求的基本流程：</p>
-<ol>
-<li>开发在本地将需求完成</li>
-<li>将代码修改提交到svn，由编译机统一编译</li>
-<li>统一编译后，将产品提交给测试</li>
-<li>开始测试产品</li>
-</ol>
-<p>这样的使用方法会有以下几个问题：</p>
-<ol>
-<li>不能及时的将代码提交到svn上，存在代码丢失的风险</li>
-<li><p>需求内bug的修复，提交svn产生噪音</p>
-<p>上面开发的基本流程，在最理想的状态下是没有问题的。事实上，步骤2，4都会产生问题,造成主干上的垃圾日志就变多。</p>
-<ul>
-<li>提交时忘记先添加某个新加的文件(<em>开发本地编译没有问题，但是编译机无发通过</em>)</li>
-<li>测试发现问题，这个时候必须修复问题吧，又得提交一次</li>
-</ul>
-</li>
-<li><p>不方便bug定位</p>
-<p>这点也是因为上面说的日志噪音产生的。想象下产品上线后，发现一个bug，我们需要定位是哪个需求引入的。<br>一个需求的svn提交记录很多，到底改了哪些东西就不是那么容易确定了。</p>
-</li>
-</ol>
-<h3 id="svn使用流程">svn使用流程</h3><p>对于上面提出的问题，解决方案会有多个。可以要求开发人员提交svn时不能出现低级错误，开发需求不能出现bug。好吧，这个是开玩笑的了。从现在的经验看来，这些问题都无法避免。错误既然无法避免，那么就修改流程允许错误的出现，同时不会带来坏的影响。</p>
-<p>下面就是我关于svn使用流程的一个想法：</p>
-<ol>
-<li>一个需求必须创建一个独立的svn分支</li>
-<li>开发和测试这个过程，都是基于这个svn分支的</li>
-<li>测试确认最终没有问题后，合并到主干上</li>
-</ol>
-<p>在理想情况下，主干上的每次修改都是稳定的、可发布的。</p>
-<p>同上面分析以前的流程一样，我们同样不能将整个流程看的太顺利。</p>
-<ol>
-<li><p>创建svn分支。</p>
-<p>不会创建svn分支？不能创建svn分支？如果在这里出现了问题，影响将会是最小的</p>
-</li>
-<li><p>开发和测试的迭代</p>
-<p>这个过程是允许出错的</p>
-</li>
-<li><p>合并需求到主干</p>
-<p>这个过程很重要，这就相当于一个产品的发布。在没有修改冲突的时候，我们可以直接使用svn的merge操作。比较麻烦的是有冲突，需要相关人员一起来合并代码了。</p>
-</li>
-</ol>
-<p><strong>问题</strong></p>
-<ol>
-<li><p>每个需求都创建一个分支是否有必要？</p>
-<p><strong>有必要</strong>。</p>
-<p>如果不是一个需求一个分支，那么两种可能：多个需求多个分支和一个需求多个分支（<em>有病的感觉，纯粹是分析问题为了保证完整性</em>）；多个需求一个分支，这个挺正常的。</p>
-<p>先来分析下最后一种情况，说下这样做不太合适的地方。合并一个分支到主干发布，这个分支包括了需求1、2、3。现在产品发布出去了，结果出现了bug（性能问题）。现在我们要分析是那个改动引入的。分析定位问题要做到，最终问题可以被，所以越精确越好。这种情况逐渐缩小搜索问题可能出现的范围是一个最好的解决方案。即需要定位哪个需求引入的，那么要从一次提交中拆分三个不同的需求。没有做过需求的人根本不知道怎么拆分。</p>
-<p>每个需求一个分支除了能解决上面的问题，还允许并行开发。</p>
-<p>最后，我有一个目标，就是在主干的日志上，可以一目了然的看清楚在什么时间发布了什么改动。</p>
-</li>
-<li><p>很简单的一个需求，创建一个分支，最后还需要合并代码是不是过于麻烦了？</p>
-<p>在回答这个问题前，我希望我们对于第一个问题已经达成共识。</p>
-<p>简单的定义，这是一个比较泛的东西，不容易界定。这里就给它一个定义：与其他需求在代码的修改上不存在冲突。现在这个问题的关键字就是<strong>麻烦</strong>了。我不认为这是一个麻烦的操作，不存在冲突，合并代码这个操作工具就可以帮助完成了。</p>
-</li>
-</ol>
-<h3 id="工具的使用">工具的使用</h3><p>工具不是我们的目标，但是工具可以帮助我们实现目标，影响我们的思路。</p>
-<p>下面我说下我对svn分支操作的理解。工作中都是使用<strong>Tortoise SVN</strong>客户端的，下面就使用它来说明下相关的操作。</p>
-<ul>
-<li>如果svn基本操作不会的可以先参考：<a href="http://blog.csdn.net/dily3825002/article/details/6717076" target="_blank" rel="external">http://blog.csdn.net/dily3825002/article/details/6717076</a></li>
-<li>更多更具体的操作可以参考：<a href="http://tortoisesvn.net/docs/nightly/TortoiseSVN_zh_CN/index.html" target="_blank" rel="external">http://tortoisesvn.net/docs/nightly/TortoiseSVN_zh_CN/index.html</a></li>
-</ul>
-<p>按照上面说的流程，需要创建分支、在分支上开发、合并分支。</p>
-<p>创建分支比较简单，可以参考上面的两个链接。</p>
-<p>创建完成分支之后，需要在分支上开发。以前我比较笨，就从svn的上checkout分支下来。其实不需要这么麻烦，svn有个switch命令，可以改变本地路径对应的svn url。给人的感觉，创建分支是和没有创建分支一样。详细的介绍：<a href="http://www.cnblogs.com/dabaopku/archive/2011/05/21/2052820.html" target="_blank" rel="external">http://www.cnblogs.com/dabaopku/archive/2011/05/21/2052820.html</a></p>
-<p><strong>分支合并</strong>有两种情况，没有冲突和有冲突。</p>
-<blockquote>
-<p><strong>备注：</strong>这块得有截图一步步演示，会比较好。但是上传截图有点麻烦的，后面录制个视频吧。</p>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>工作中我们使用svn来管理源码。之前基于svn来开发需求的基本流程：</p>
-<ol>
-<li>开发在本地将需求完成</li>
-<li>将代码修改提交到svn，由编译机统一编译</li>
-<li>统一编译后，将产品提交给测试</li>
-<li>开始测试产品</li>
-</o]]>
-    </summary>
-    
-      <category term="svn" scheme="http://blog.makerome.com/tags/svn/"/>
-    
-      <category term="流程" scheme="http://blog.makerome.com/tags/%E6%B5%81%E7%A8%8B/"/>
     
   </entry>
   
