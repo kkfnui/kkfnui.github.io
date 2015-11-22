@@ -7,7 +7,7 @@ tags:
 - Summary
 ---
 
-It's a beatiful weekend. Snow all day. I nerver experienced such a bigger snow.
+It's a beatiful weekend. Snow all day. I nerver experienced such a heavy snow.
 
 Photos for mark.
 
@@ -18,13 +18,13 @@ Photos for mark.
 
 ### Hot pot
 
-It's really funny that have hot pot under snow. So we order a hot pot and enjoy it on bay window.
+It's really funny that have hot pot in the snow day. So we order a hot pot and enjoy it on bay window.
 
 ![](/media/14482110162029.jpg)
 
 ### House of Cards
 
-I spent all the weekend on watch 《House of Cards 3》. It's disappoint me that there has not the ending.
+I spent the whole weekend on watching 《House of Cards 3》. It's disappoint me that it doesn't have the end.
 
 ### Summary
 
