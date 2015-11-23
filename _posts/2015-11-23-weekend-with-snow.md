@@ -41,3 +41,5 @@ Something has done:
 Oh, it seems that I had waste of time. The most important thing that review and promote Data Struct&Algorithm for me hasn't been realized. 
 
 
+
+
