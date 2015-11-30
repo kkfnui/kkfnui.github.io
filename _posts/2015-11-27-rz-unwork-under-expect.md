@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用expect自动化登录服务器后无法使用rz"
+title: "expect自动登录服务器后无法使用rz"
 author: "kkfnui"
 date: 2015-11-27 00:20:57 +0800
 tags:
