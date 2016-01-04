@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "淘神的婚礼"
+title: "涛神的婚礼"
 author: "kkfnui"
 date: 2015-12-18 08:04:44 +0800
 tags:
