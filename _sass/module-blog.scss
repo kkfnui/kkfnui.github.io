@@ -1,0 +1,156 @@
+@import 'variables';
+@import 'mixins';
+
+@mixin collapsed(){
+  .content{
+    margin-left: 0px;  
+  }
+  aside{
+    display: none;
+  }
+  .blog-header{
+    h3{
+      margin: 20px 0 20px;
+    }
+    .tag-list{
+      margin-left: 0;
+    }
+  }
+}
+
+.blog-header{
+  background: linear-gradient(172deg, $grey 0, $grey 15%, $blue 70%);
+  color: white;
+  h3{
+    margin: 50px 0 35px;
+    small{
+      color: $light-grey;
+    }
+  }
+  time{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  .tag-list{
+    margin-bottom: 10px;
+    margin-left: $toc-width + 30px;  
+    min-height: 28px;
+    .tag{
+      border-color: white;
+      margin-bottom: .5em;
+    }
+  }
+  .container-fluid{
+    aside{
+      float: left;
+      @import 'toc';
+    }
+    &::after{
+      clear: none;
+    }
+  }
+  @include media-xs{
+    h3{
+      margin: 35px 0 20px;
+    }
+    .tag-list{
+      margin-left: 0;
+    }
+    time{
+      display: none;
+    }
+  }
+}
+
+&.collapsed{
+  @include collapsed();
+}
+
+@include media-xs{
+  @include collapsed();
+}
+
+.content{
+  margin-left: $toc-width + 30px;  
+  margin-top: 50px;
+  @include media-xs{
+    margin-top: 30px;
+    margin-left: 0;  
+  }
+}
+
+.author-wrapper{
+  .module-author{
+    float: right;
+  }
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.post-pager{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  .btn-hover{
+    max-width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .previous{
+    float: left;
+    border-left: 1px solid $blue;
+  }
+  .next{
+    float: right;
+    border-right: 1px solid $blue;
+  }
+}
+
+#social-share-block{
+  .social-share{
+    margin: -2px 0 0;
+  }
+  li a{
+    @include inline-size(32px);
+  }
+}
+
+.recommend{
+  position: fixed;
+  z-index: 1;
+  right: 100%;
+  bottom: 40px;
+  border-right: 10px solid $blue;
+  border-top: 1px solid $blue;
+  border-bottom: 1px solid $blue;
+  padding: 10px 20px;
+  width: 270px;
+  background: white;
+  @include transition(transform .3s ease-in);
+}
+
+.recommend .fa{
+  margin-right: 10px;
+}
+
+.recommend.in{
+  @include transform(translate3d(100%, 0, 0));
+}
+
+@media(max-width:1199px){
+  .post-pager{
+    .next, .previous{
+      float: none;
+      display: block;
+    }
+    .next{
+      border-left: 1px solid $blue;
+      border-right: none;
+    }
+  }
+  #social-share-block{
+    text-align: right;
+  }
+}

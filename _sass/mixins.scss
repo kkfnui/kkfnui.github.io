@@ -1,0 +1,139 @@
+@import 'variables';
+
+@mixin sans{
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+@mixin serif{
+  font-family: Georgia, '宋体', serif;
+}
+
+@mixin size($value){ 
+  width: $value;
+  height: $value;
+}
+@mixin circle($value){ 
+  width: $value;
+  height: $value;
+  border-radius: $value/2;
+}
+@mixin inline-size($value){ 
+  @include size($value);
+  line-height: $value;
+  text-align: center;
+}
+@mixin opacity($value){
+  opacity: $value;
+  -webkit-opacity: $value;
+  -moz-opacity: $value;
+  -o-opacity: $value;
+  -ms-opacity: $value;
+}
+
+@mixin transition($value){
+  transition: $value;
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  -ms-transition: $value;
+}
+
+@mixin transform($value){
+  transform: $value;
+  -webkit-transform: $value;
+}
+
+@mixin filter-blur($v){
+  filter: blur($v);
+  -webkit-filter: blur($v);
+  -moz-filter: blur($v);
+  -o-filter: blur($v);
+  -ms-filter: blur($v);
+}
+
+@mixin ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin ellipsis-v($height){
+  max-height: $height;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+@mixin animation($v...){
+    animation: $v; 
+    -webkit-animation: $v; 
+    -moz-animation: $v; 
+    -o-animation: $v; 
+    -ms-animation: $v; 
+}
+
+@mixin box-shadow($shadows...) {
+  box-shadow: $shadows;
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  -ms-box-shadow: $shadows;
+  -o-box-shadow: $shadows;
+}
+
+@mixin linear-gradient($v...){
+  background: linear-gradient($v);
+  background: -moz-linear-gradient($v);
+  background: -webkit-linear-gradient($v);
+  background: -ms-linear-gradient($v);
+  background: -o-linear-gradient($v);
+}
+
+@mixin link-hover($normal, $hover){
+  color: $normal;
+  transition: all 0.3s;
+  &:hover, &:active{
+    color: $hover;
+  }
+  &:hover, &:active, &:focus{
+    text-decoration: none;
+  }
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin media-xs{
+  @media(max-width: 768px){
+    @content;
+  }
+}
+
+@mixin media-md{
+  @media(min-width: 1200px){
+    @content;
+  }
+}
+
+@mixin transform($v...){
+  -webkit-transform: $v;
+  transform: $v;
+}
+
+@mixin transform-origin($v...){
+  -webkit-transform-origin: $v;
+  transform-origin: $v;
+}

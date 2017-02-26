@@ -1,0 +1,184 @@
+@import "variables";
+
+.md {
+  line-height: 1.8em;
+}
+
+.md > *:first-child {
+  margin-top: 0;
+}
+
+.md {
+  overflow-wrap: break-word;
+}
+
+.md {
+  a, code, strong, em {
+    margin-left: 3px;
+    margin-right: 3px;
+    word-wrap: break-word;
+  }
+}
+
+.md pre code {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.md > * {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.md p {
+  margin: 0 0 10px;
+}
+
+.md h2 {
+  margin: 50px 0 35px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  border-bottom: 1px solid #EEE;
+}
+
+.md h3 {
+  margin: 40px 0 25px 0;
+  font-size: 22px;
+}
+
+.md h4 {
+  margin: 20px 0 10px 0;
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.md h5 {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 18px 0 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.md h6 {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 14px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.md h7 {
+  color: #666;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 18px 0 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.md ul, .md ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.md br + br {
+  line-height: 0;
+  height: 0;
+  display: none;
+}
+
+.md blockquote {
+  margin: 10px 0;
+  border-left: 4px solid #DDD;
+  padding: 0 0 0 11px;
+  color: #777;
+  font-size: 14px;
+}
+
+.md pre {
+  padding: 15px 20px;
+  border: 0;
+  overflow-x: auto;
+}
+
+.md code, .md pre {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 12px;
+}
+
+.md pre code {
+  word-wrap: normal;
+  white-space: pre;
+  overflow-wrap: normal;
+  line-height: 20px;
+}
+
+.md *:not(pre) > code {
+  border: 1px solid #ddd;
+  /*color: #777;*/
+  color: $red;
+
+  /*#c03;*/
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  white-space: normal;
+
+  /*overcome bootstrap nowrap*/
+  padding: 3px 4px 0 4px;
+
+  /*overcome bootstrap padding*/
+}
+
+.md a, .md a code {
+  text-decoration: underline;
+}
+
+.md a:hover, .md a code:hover {
+  text-decoration: underline;
+}
+
+.md table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.md table tr th {
+  font-weight: normal;
+  text-align: center;
+}
+
+.md table tr th, .md table tr td {
+  border: 1px solid #ddd;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.md table tbody tr:nth-child(2n-1) {
+  background-color: #F8F8F8;
+}
+
+.md div.mathjax {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.md img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.md img[src*='@2x'], .md img[alt*='@2x'] {
+  zoom: 50%;
+}
+
+.md img[src*='@1.5x'], .md img[alt*='@1.5x'] {
+  zoom: 66.67%;
+}
+
+.MathJax {
+  padding: 0 0.2em !important;
+}
+

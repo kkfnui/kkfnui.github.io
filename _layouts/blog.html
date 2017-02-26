@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="module-blog">
+  <header class="blog-header">
+    <div class="container-fluid">
+      <time class="pull-right">
+        {% assign d = page.date | date: "%-d"  %}
+        {{ page.date | date: "%A, %B" }} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st
+          {% when '2' or '22' %}{{ d }}nd
+          {% when '3' or '23' %}{{ d }}rd
+          {% else %}{{ d }}th
+          {% endcase %}, 
+        {{ page.date | date: "%Y" }}
+      </time>
+      <h1>{{page.title}}
+        {% if page.subtitle %}<small>{{page.subtitle}}</small>{% endif %}
+      </h1>
+
+      <aside> <div class="toc"></div> </aside>
+
+      <p class="tag-list">
+        {% for tag in page.tags %}
+          <a class="tag" href="/tags.html#{{tag}}">{{tag}}</a>
+        {% endfor %}
+      </p>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="content">
+      <article class="md">
+        {{ content }}
+      </article>
+
+      <div class="author-wrapper">
+        {% include author.html %}
+      </div>
+      {% include post-pager.html %}
+      {% include comments.html %}
+    </div>
+  </div>
+
+  <div class="recommend">
+    <h4>看看这个？</h4>
+    <p><a class="post-link" href=""></a></p>
+  </div>
+
+  {% include latex.html %}
+</div>
+

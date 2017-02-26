@@ -1,22 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: kkfnui's blog
-email: kkfnui@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write about life.
-  Write about work.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.makerome.com" # the base hostname & protocol for your site
-twitter_username: kkfnui
-github_username:  kkfnui
+description: 锲而舍之，朽木不折;锲而不舍，金石可镂
+url: http://blog.makerome.com
+author: 吕飞
+twitter:
+  username: kkfnui
+logo: assets/img/k.png
+keywords: 
+  - Java
+  - C++
+  - Linux
+  - Bash
 
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: /:year/:month/:day/:title.html
+paginate: 7
+paginate_path: "page:num"
+
+markdown: kramdown
+markdown_ext:  md
+excerpt_separator: "<!--more-->"
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+lsi: false
+
+exclude: ['README.md', '.*', 'bin/', 'Gemfile']
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: "_drafts"
+    values:
+      layout: "blog"
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "blog"
+

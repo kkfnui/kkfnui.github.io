@@ -1,0 +1,73 @@
+@import 'mixins';
+@import 'variables';
+.banner {
+    padding: 35px 0 35px;
+    position: relative;
+    z-index: 1000;
+    background: $grey;
+    .logo {
+        line-height: 32px;
+        font-weight: bold;
+        display: inline-block;
+        letter-spacing: 0.03em;
+        @include link-hover($light-grey, white);
+        @include serif;
+        * {
+            vertical-align: bottom;
+            font-size: 24px;
+        }
+        .logo-h {
+            color: #aa7777;
+            font-size: 32px;
+        }
+        .logo-land {
+            color: white;
+            margin-left: 5px;
+        }
+    }
+    .desc {
+        color: darken($light-grey, 10%);
+        margin: 0;
+        font-size: 13px;
+        @include media-xs {
+            display: none;
+        }
+    }
+    nav a {
+        line-height: 32px;
+        margin-left: 30px;
+        @include link-hover($light-grey, white);
+        @include media-xs {
+            line-height: 38px;
+            margin-left: 10px;
+        }
+    }
+    @media(max-width:370px) {
+        nav {
+            display: none;
+        }
+    }
+}
+
+.banner.transparent {
+    background: rgba(0, 0, 0, 0.3);
+    .logo .logo-arttle {
+        color: #999;
+    }
+    .logo:hover .logo-arttle {
+        color: white;
+    }
+    nav a {
+        color: #ddd;
+    }
+    nav a:hover {
+        color: white;
+    }
+    .desc {
+        color: #777;
+    }
+}
+
+.site-content {
+    z-index: 10;
+}

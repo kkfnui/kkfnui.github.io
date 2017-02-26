@@ -1,0 +1,26 @@
+<div class="post-pager clearfix">
+  {% if page.previous %}
+    <a href="{{page.previous.url}}" class="previous btn-hover">
+      上一篇：{{page.previous.title}}
+    </a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{page.next.url}}" class="next btn-hover">
+      下一篇：{{page.next.title}}
+    </a>
+  {% endif %}
+
+  {% unless page.next %}
+    <div id="social-share-block" class="text-right"></div>
+  {% endunless %}
+
+  {% unless page.previous %}
+    <div id="social-share-block" class="text-left"></div>
+  {% endunless %}
+
+  {% if page.previous and page.next %}
+    <div id="social-share-block" class="text-center"></div>
+  {% endif %}
+
+</div>
+
