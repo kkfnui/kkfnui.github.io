@@ -1,6 +1,7 @@
 ---
 title: 【翻译】 Open-sourcing Rocksplicator, RocksDB 实时复制架构
 tags: RocksDB 翻译 Pinterest
+category: rocksdb
 ---
 
 > 原文: [Open-sourcing Rocksplicator, a real-time RocksDB data replicator](https://medium.com/@Pinterest_Engineering/open-sourcing-rocksplicator-a-real-time-rocksdb-data-replicator-558cd3847a9d#.1lvyfwoy6)
