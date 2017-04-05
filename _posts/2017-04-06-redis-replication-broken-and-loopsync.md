@@ -1,6 +1,6 @@
 ---
 title: Redis复制中断和无限同步问题
-tags: redis 运维
+tags: Redis 运维
 ---
 
 [在线切换 redis cluster 持久化策略](http://blog.makerome.com/2017/04/05/restart-redis-cluster-without-down-time.html)

@@ -1,6 +1,6 @@
 ---
 title: 在线切换 redis cluster 持久化策略
-tags: redis 运维
+tags: Redis 运维
 ---
 
 
