@@ -166,7 +166,7 @@ class BlobHandle {
 1. 如果需要，会解压数据
 1. 如果需要序列号，则要校验 Recoder 的 footer
 
-### PUT
+#### PUT
 
 PUT --> PutWithTTL --> PutUntil
 
@@ -180,7 +180,7 @@ PUT --> PutWithTTL --> PutUntil
 1. 更新 BlobFile 的 sn（**疑惑：**这里 sn 是作为 recorder 的 footer 的，但是写 head、value 与这个 footer 整个范围内没有加锁，中间有可能会被其他线程写入数据啊）
 1. 如果有超时时间，就要尝试扩展 BlobFile 的超时时间范围
 
-### DELETE
+#### DELETE
 
 delete 会和后面的 GC 想联系起来
 
