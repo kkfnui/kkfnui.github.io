@@ -6,6 +6,8 @@ title: 所有文章
 <div class="container-fluid module-archive">
   <section>
     {%for post in site.posts %}
+    {% if post.category != "log" %}
+
       {% unless post.next %}
         {% include archive-month.html %}
         <ul class="list-unstyled">
@@ -27,6 +29,7 @@ title: 所有文章
           {% endfor %}
         </div>
       </li>
+    {% endif%}  
     {% endfor %}
     </ul>
   </section>
