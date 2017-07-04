@@ -15,6 +15,8 @@ layout: default
   <div class="content"> 
     <div class="posts">
       {% for post in paginator.posts %}
+      {% if post.category != "log" %}
+
       <div class="post">
         <time>
           <p class="day">{{post.date | date: '%d'}}</p>
@@ -37,6 +39,7 @@ layout: default
           <a class="more btn-hover pull-right" href="{{ post.url }}" target='_blank'> 继续阅读 </a>
         </article>
       </div>
+      {% endif%}
       {% endfor %}
     </div>
 
