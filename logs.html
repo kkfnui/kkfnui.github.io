@@ -6,7 +6,6 @@ title: logs
 <div class="container-fluid module-archive">
     <section>
         {%for post in site.posts %}
-        {% if post.category == "log" %}
 
         {% unless post.next %}
         {% include archive-month.html %}
@@ -20,6 +19,8 @@ title: logs
         <ul class="list-unstyled">
             {% endif %}
             {% endunless %}
+
+            {% if post.category == "log" %}
             <li>
                 <time>{{ post.date | date: '%Y-%m-%d %a.' }}</time>
                 <div>
