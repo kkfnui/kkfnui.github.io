@@ -1,7 +1,6 @@
 ---
 title: 在华硕路由部署 Shadowsocks 服务
 tags: asus OpenWrt Shadowsocks
-
 ---
 
 上网翻墙对我来说一直是一个刚需。
